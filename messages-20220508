@@ -1,0 +1,830 @@
+Apr 30 23:10:01 vagrant-centosv3 rsyslogd: [origin software="rsyslogd" swVersion="5.8.10" x-pid="1140" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Apr 30 23:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+Apr 30 23:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+Apr 30 23:47:28 vagrant-centosv3 rhnsd[10653]: running program /usr/sbin/rhn_check with PID 10653
+Apr 30 23:52:46 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+Apr 30 23:52:46 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+Apr 30 23:52:48 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 18784 seconds.
+Apr 30 23:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+Apr 30 23:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 00:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 00:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 00:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 00:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 01:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 01:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 01:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 01:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 02:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 02:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 02:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 02:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 03:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 03:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 03:47:28 vagrant-centosv3 rhnsd[12954]: running program /usr/sbin/rhn_check with PID 12954
+May  1 03:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 03:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 04:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 04:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 04:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 04:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 05:05:52 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  1 05:05:52 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  1 05:05:54 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 18139 seconds.
+May  1 05:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 05:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 05:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 05:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 06:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 06:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 06:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 06:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 07:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 07:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 07:47:28 vagrant-centosv3 rhnsd[15578]: running program /usr/sbin/rhn_check with PID 15578
+May  1 07:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 07:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 08:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 08:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 08:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 08:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 09:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 09:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 09:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 09:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 10:08:13 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  1 10:08:13 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  1 10:08:15 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 16046 seconds.
+May  1 10:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 10:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 10:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 10:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 11:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 11:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 11:47:28 vagrant-centosv3 rhnsd[17875]: running program /usr/sbin/rhn_check with PID 17875
+May  1 11:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 11:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 12:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 12:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 12:51:24 vagrant-centosv3 nscd: 7903 checking for monitored file `/etc/netgroup': No such file or directory
+May  1 12:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 12:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 13:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 13:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 13:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 13:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 14:10:16 vagrant-centosv3 rhnsd[19277]: running program /usr/sbin/rhn_check with PID 19277
+May  1 14:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 14:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 14:35:41 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  1 14:35:41 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  1 14:35:43 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 15459 seconds.
+May  1 14:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 14:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 15:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 15:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 15:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 15:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 16:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 16:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 16:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 16:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 17:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 17:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 17:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 17:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 18:10:16 vagrant-centosv3 rhnsd[21577]: running program /usr/sbin/rhn_check with PID 21577
+May  1 18:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 18:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 18:53:22 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  1 18:53:22 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  1 18:53:24 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 16855 seconds.
+May  1 18:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 18:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 19:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 19:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 19:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 19:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 20:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 20:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 20:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 20:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 21:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 21:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 21:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 21:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 22:10:16 vagrant-centosv3 rhnsd[24209]: running program /usr/sbin/rhn_check with PID 24209
+May  1 22:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 22:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 22:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 22:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 23:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 23:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  1 23:34:19 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  1 23:34:19 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  1 23:34:21 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 15722 seconds.
+May  1 23:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  1 23:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 00:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 00:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 00:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 00:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 01:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 01:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 01:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 01:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 02:10:16 vagrant-centosv3 rhnsd[26537]: running program /usr/sbin/rhn_check with PID 26537
+May  2 02:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 02:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 02:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 02:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 03:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 03:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 03:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 03:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 03:56:23 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  2 03:56:23 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  2 03:56:25 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 18666 seconds.
+May  2 04:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 04:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 04:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 04:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 05:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 05:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 05:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 05:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 06:10:16 vagrant-centosv3 rhnsd[28857]: running program /usr/sbin/rhn_check with PID 28857
+May  2 06:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 06:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 06:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 06:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 07:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 07:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 07:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 07:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 08:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 08:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 08:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 08:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 09:07:31 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  2 09:07:31 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  2 09:07:33 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 19304 seconds.
+May  2 09:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 09:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 09:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 09:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 10:10:16 vagrant-centosv3 rhnsd[31485]: running program /usr/sbin/rhn_check with PID 31485
+May  2 10:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 10:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 10:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 10:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 11:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 11:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 11:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 11:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 12:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 12:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 12:51:24 vagrant-centosv3 nscd: 7903 checking for monitored file `/etc/netgroup': No such file or directory
+May  2 12:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 12:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 13:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 13:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 13:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 13:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 14:10:16 vagrant-centosv3 rhnsd[1305]: running program /usr/sbin/rhn_check with PID 1305
+May  2 14:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 14:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 14:29:17 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  2 14:29:17 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  2 14:29:19 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 17175 seconds.
+May  2 14:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 14:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 15:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 15:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 15:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 15:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 16:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 16:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 16:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 16:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 17:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 17:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 17:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 17:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 18:10:16 vagrant-centosv3 rhnsd[3753]: running program /usr/sbin/rhn_check with PID 3753
+May  2 18:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 18:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 18:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 18:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 19:15:34 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  2 19:15:34 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  2 19:15:36 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 18512 seconds.
+May  2 19:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 19:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 19:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 19:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 20:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 20:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 20:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 20:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 21:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 21:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 21:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 21:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 22:10:16 vagrant-centosv3 rhnsd[6387]: running program /usr/sbin/rhn_check with PID 6387
+May  2 22:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 22:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 22:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 22:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 23:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 23:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  2 23:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  2 23:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 00:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 00:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 00:24:08 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  3 00:24:08 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  3 00:24:10 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 14923 seconds.
+May  3 00:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 00:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 01:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 01:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 01:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 01:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 02:10:16 vagrant-centosv3 rhnsd[8742]: running program /usr/sbin/rhn_check with PID 8742
+May  3 02:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 02:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 02:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 02:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 03:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 03:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 03:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 03:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 04:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 04:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 04:32:53 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  3 04:32:53 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  3 04:32:55 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 15363 seconds.
+May  3 04:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 04:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 05:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 05:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 05:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 05:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 06:10:16 vagrant-centosv3 rhnsd[11048]: running program /usr/sbin/rhn_check with PID 11048
+May  3 06:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 06:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 06:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 06:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 07:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 07:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 07:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 07:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 08:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 08:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 08:48:58 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  3 08:48:58 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  3 08:49:00 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 18749 seconds.
+May  3 08:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 08:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 09:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 09:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 09:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 09:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 10:10:16 vagrant-centosv3 rhnsd[13677]: running program /usr/sbin/rhn_check with PID 13677
+May  3 10:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 10:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 10:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 10:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 11:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 11:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 11:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 11:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 12:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 12:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 12:51:24 vagrant-centosv3 nscd: 7903 checking for monitored file `/etc/netgroup': No such file or directory
+May  3 12:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 12:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 13:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 13:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 13:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 13:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 14:01:29 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  3 14:01:29 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  3 14:01:31 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 18778 seconds.
+May  3 14:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 14:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 14:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 14:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 14:59:47 vagrant-centosv3 rhnsd[16376]: running program /usr/sbin/rhn_check with PID 16376
+May  3 15:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 15:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 15:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 15:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 16:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 16:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 16:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 16:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 17:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 17:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 17:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 17:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 18:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 18:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 18:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 18:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 18:59:47 vagrant-centosv3 rhnsd[18965]: running program /usr/sbin/rhn_check with PID 18965
+May  3 19:14:29 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  3 19:14:29 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  3 19:14:31 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 16249 seconds.
+May  3 19:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 19:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 19:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 19:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 20:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 20:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 20:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 20:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 21:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 21:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 21:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 21:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 22:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 22:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 22:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 22:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 22:59:47 vagrant-centosv3 rhnsd[21272]: running program /usr/sbin/rhn_check with PID 21272
+May  3 23:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 23:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  3 23:45:20 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  3 23:45:20 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  3 23:45:22 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 15930 seconds.
+May  3 23:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  3 23:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 00:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 00:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 00:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 00:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 01:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 01:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 01:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 01:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 02:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 02:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 02:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 02:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 02:59:47 vagrant-centosv3 rhnsd[23604]: running program /usr/sbin/rhn_check with PID 23604
+May  4 03:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 03:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 03:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 03:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 04:10:52 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  4 04:10:52 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  4 04:10:54 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 15490 seconds.
+May  4 04:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 04:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 04:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 04:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 05:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 05:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 05:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 05:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 06:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 06:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 06:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 06:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 06:59:47 vagrant-centosv3 rhnsd[26229]: running program /usr/sbin/rhn_check with PID 26229
+May  4 07:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 07:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 07:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 07:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 08:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 08:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 08:29:04 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  4 08:29:04 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  4 08:29:06 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 18805 seconds.
+May  4 08:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 08:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 09:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 09:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 09:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 09:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 10:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 10:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 10:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 10:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 10:59:47 vagrant-centosv3 rhnsd[28549]: running program /usr/sbin/rhn_check with PID 28549
+May  4 11:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 11:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 11:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 11:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 12:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 12:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 12:51:24 vagrant-centosv3 nscd: 7903 checking for monitored file `/etc/netgroup': No such file or directory
+May  4 12:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 12:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 13:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 13:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 13:42:31 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  4 13:42:31 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  4 13:42:33 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 16140 seconds.
+May  4 13:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 13:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 14:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 14:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 14:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 14:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 14:59:47 vagrant-centosv3 rhnsd[30841]: running program /usr/sbin/rhn_check with PID 30841
+May  4 15:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 15:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 15:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 15:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 16:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 16:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 16:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 16:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 17:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 17:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 17:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 17:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 18:11:33 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  4 18:11:33 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  4 18:11:35 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 17132 seconds.
+May  4 18:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 18:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 18:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 18:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 18:59:47 vagrant-centosv3 rhnsd[1010]: running program /usr/sbin/rhn_check with PID 1010
+May  4 19:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 19:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 19:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 19:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 20:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 20:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 20:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 20:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 21:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 21:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 21:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 21:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 22:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 22:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 22:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 22:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 22:57:07 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  4 22:57:07 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  4 22:57:09 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 19353 seconds.
+May  4 22:59:47 vagrant-centosv3 rhnsd[3343]: running program /usr/sbin/rhn_check with PID 3343
+May  4 23:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 23:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  4 23:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  4 23:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 00:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 00:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 00:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 00:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 01:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 01:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 01:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 01:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 02:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 02:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 02:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 02:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 02:59:47 vagrant-centosv3 rhnsd[5638]: running program /usr/sbin/rhn_check with PID 5638
+May  5 03:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 03:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 03:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 03:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 04:19:42 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  5 04:19:42 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  5 04:19:44 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 17242 seconds.
+May  5 04:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 04:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 04:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 04:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 05:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 05:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 05:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 05:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 06:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 06:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 06:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 06:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 06:59:47 vagrant-centosv3 rhnsd[8279]: running program /usr/sbin/rhn_check with PID 8279
+May  5 07:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 07:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 07:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 07:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 08:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 08:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 08:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 08:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 09:07:06 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  5 09:07:06 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  5 09:07:08 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 14923 seconds.
+May  5 09:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 09:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 09:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 09:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 10:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 10:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 10:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 10:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 10:59:47 vagrant-centosv3 rhnsd[10591]: running program /usr/sbin/rhn_check with PID 10591
+May  5 11:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 11:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 11:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 11:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 12:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 12:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 12:51:24 vagrant-centosv3 nscd: 7903 checking for monitored file `/etc/netgroup': No such file or directory
+May  5 12:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 12:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 13:15:51 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  5 13:15:51 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  5 13:15:53 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 16654 seconds.
+May  5 13:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 13:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 13:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 13:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 14:16:06 vagrant-centosv3 rhnsd[12542]: running program /usr/sbin/rhn_check with PID 12542
+May  5 14:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 14:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 14:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 14:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 15:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 15:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 15:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 15:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 16:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 16:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 16:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 16:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 17:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 17:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 17:53:27 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  5 17:53:27 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  5 17:53:29 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 17662 seconds.
+May  5 17:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 17:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 18:16:06 vagrant-centosv3 rhnsd[14840]: running program /usr/sbin/rhn_check with PID 14840
+May  5 18:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 18:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 18:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 18:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 19:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 19:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 19:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 19:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 20:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 20:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 20:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 20:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 21:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 21:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 21:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 21:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 22:16:06 vagrant-centosv3 rhnsd[17432]: running program /usr/sbin/rhn_check with PID 17432
+May  5 22:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 22:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 22:47:51 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  5 22:47:51 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  5 22:47:53 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 18323 seconds.
+May  5 22:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 22:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 23:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 23:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  5 23:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  5 23:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 00:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 00:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 00:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 00:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 01:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 01:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 01:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 01:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 02:16:06 vagrant-centosv3 rhnsd[19759]: running program /usr/sbin/rhn_check with PID 19759
+May  6 02:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 02:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 02:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 02:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 03:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 03:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 03:53:16 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  6 03:53:16 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  6 03:53:18 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 18908 seconds.
+May  6 03:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 03:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 04:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 04:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 04:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 04:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 05:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 05:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 05:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 05:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 06:16:06 vagrant-centosv3 rhnsd[22061]: running program /usr/sbin/rhn_check with PID 22061
+May  6 06:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 06:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 06:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 06:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 07:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 07:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 07:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 07:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 08:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 08:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 08:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 08:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 09:08:26 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  6 09:08:26 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  6 09:08:28 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 14479 seconds.
+May  6 09:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 09:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 09:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 09:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 10:16:06 vagrant-centosv3 rhnsd[24686]: running program /usr/sbin/rhn_check with PID 24686
+May  6 10:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 10:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 10:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 10:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 11:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 11:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 11:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 11:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 12:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 12:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 12:51:24 vagrant-centosv3 nscd: 7903 checking for monitored file `/etc/netgroup': No such file or directory
+May  6 12:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 12:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 13:09:47 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  6 13:09:47 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  6 13:09:49 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 19290 seconds.
+May  6 13:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 13:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 13:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 13:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 14:16:06 vagrant-centosv3 rhnsd[26988]: running program /usr/sbin/rhn_check with PID 26988
+May  6 14:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 14:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 14:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 14:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 15:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 15:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 15:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 15:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 16:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 16:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 16:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 16:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 17:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 17:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 17:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 17:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 18:16:06 vagrant-centosv3 rhnsd[29266]: running program /usr/sbin/rhn_check with PID 29266
+May  6 18:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 18:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 18:31:19 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  6 18:31:19 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  6 18:31:21 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 19320 seconds.
+May  6 18:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 18:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 19:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 19:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 19:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 19:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 20:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 20:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 20:53:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 20:53:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 21:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 21:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 21:53:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 21:53:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 22:16:06 vagrant-centosv3 rhnsd[31901]: running program /usr/sbin/rhn_check with PID 31901
+May  6 22:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 22:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 22:53:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 22:53:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 23:23:34 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 23:23:34 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  6 23:53:21 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  6 23:53:21 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  6 23:53:23 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 16426 seconds.
+May  6 23:53:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  6 23:53:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 00:23:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 00:23:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 00:53:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 00:53:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 01:23:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 01:23:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 01:53:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 01:53:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 02:16:06 vagrant-centosv3 rhnsd[1790]: running program /usr/sbin/rhn_check with PID 1790
+May  7 02:23:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 02:23:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 02:53:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 02:53:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 03:23:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 03:23:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 03:53:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 03:53:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 04:23:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 04:23:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 04:27:09 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  7 04:27:09 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  7 04:27:11 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 18982 seconds.
+May  7 04:53:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 04:53:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 05:23:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 05:23:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 05:53:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 05:53:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 06:16:06 vagrant-centosv3 rhnsd[4097]: running program /usr/sbin/rhn_check with PID 4097
+May  7 06:23:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 06:23:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 06:53:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 06:53:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 07:23:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 07:23:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 07:53:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 07:53:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 08:23:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 08:23:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 08:53:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 08:53:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 09:23:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 09:23:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 09:43:33 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  7 09:43:33 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  7 09:43:35 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 18584 seconds.
+May  7 09:53:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 09:53:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 10:16:06 vagrant-centosv3 rhnsd[6724]: running program /usr/sbin/rhn_check with PID 6724
+May  7 10:23:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 10:23:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 10:53:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 10:53:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 11:23:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 11:23:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 11:53:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 11:53:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 12:23:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 12:23:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 12:51:24 vagrant-centosv3 nscd: 7903 checking for monitored file `/etc/netgroup': No such file or directory
+May  7 12:53:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 12:53:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 13:23:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 13:23:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 13:53:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 13:53:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 14:23:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 14:23:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 14:53:19 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  7 14:53:19 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  7 14:53:21 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 17977 seconds.
+May  7 14:53:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 14:53:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 14:58:36 vagrant-centosv3 rhnsd[9386]: running program /usr/sbin/rhn_check with PID 9386
+May  7 15:23:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 15:23:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 15:53:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 15:53:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 16:23:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 16:23:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 16:53:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 16:53:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 17:23:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 17:23:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 17:53:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 17:53:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 18:23:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 18:23:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 18:53:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 18:53:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 18:58:36 vagrant-centosv3 rhnsd[11986]: running program /usr/sbin/rhn_check with PID 11986
+May  7 19:23:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 19:23:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 19:52:58 vagrant-centosv3 dhclient[3107]: DHCPREQUEST on eth0 to 10.110.0.1 port 67 (xid=0x55551419)
+May  7 19:52:58 vagrant-centosv3 dhclient[3107]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+May  7 19:53:00 vagrant-centosv3 dhclient[3107]: bound to 10.110.134.216 -- renewal in 16317 seconds.
+May  7 19:53:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 19:53:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 20:23:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 20:23:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 20:53:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 20:53:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 21:23:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 21:23:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 21:53:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 21:53:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 22:23:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 22:23:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 22:53:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 22:53:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.
+May  7 22:58:36 vagrant-centosv3 rhnsd[14297]: running program /usr/sbin/rhn_check with PID 14297
+May  7 23:23:35 vagrant-centosv3 puppet-agent[7282]: Skipping run of Puppet configuration client; administratively disabled (Reason: 'finished wazuh testing: https://app.clickup.com/t/2chgd1p');
+May  7 23:23:35 vagrant-centosv3 puppet-agent[7282]: Use 'puppet agent --enable' to re-enable.

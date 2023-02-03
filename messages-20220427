@@ -1,0 +1,1605 @@
+Aug 17 15:24:01 vagrant-centos6 rsyslogd: [origin software="rsyslogd" swVersion="5.8.10" x-pid="1010" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Aug 17 16:20:39 vagrant-centos6 init: tty (/dev/tty2) main process (1284) killed by TERM signal
+Aug 17 16:20:39 vagrant-centos6 init: tty (/dev/tty3) main process (1286) killed by TERM signal
+Aug 17 16:20:39 vagrant-centos6 init: tty (/dev/tty4) main process (1288) killed by TERM signal
+Aug 17 16:20:39 vagrant-centos6 init: tty (/dev/tty5) main process (1290) killed by TERM signal
+Aug 17 16:20:39 vagrant-centos6 init: tty (/dev/tty6) main process (1292) killed by TERM signal
+Aug 17 16:20:40 vagrant-centos6 rhnsd[1271]: Exiting
+Aug 17 16:20:41 vagrant-centos6 auditd[988]: The audit daemon is exiting.
+Aug 17 16:20:41 vagrant-centos6 kernel: type=1305 audit(1629231641.490:159): audit_pid=0 old=988 auid=4294967295 ses=4294967295 res=1
+Aug 17 16:20:41 vagrant-centos6 kernel: type=1305 audit(1629231641.591:160): audit_enabled=0 old=1 auid=4294967295 ses=4294967295 res=1
+Aug 17 16:20:41 vagrant-centos6 kernel: Kernel logging (proc) stopped.
+Aug 17 16:20:41 vagrant-centos6 rsyslogd: [origin software="rsyslogd" swVersion="5.8.10" x-pid="1010" x-info="http://www.rsyslog.com"] exiting on signal 15.
+Aug 17 16:21:50 vagrant-centos6 kernel: imklog 5.8.10, log source = /proc/kmsg started.
+Aug 17 16:21:50 vagrant-centos6 rsyslogd: [origin software="rsyslogd" swVersion="5.8.10" x-pid="991" x-info="http://www.rsyslog.com"] start
+Aug 17 16:21:50 vagrant-centos6 kernel: Initializing cgroup subsys cpuset
+Aug 17 16:21:50 vagrant-centos6 kernel: Initializing cgroup subsys cpu
+Aug 17 16:21:50 vagrant-centos6 kernel: Linux version 2.6.32-754.14.2.el6.x86_64 (mockbuild@x86-01.bsys.centos.org) (gcc version 4.4.7 20120313 (Red Hat 4.4.7-23) (GCC) ) #1 SMP Tue May 14 19:35:42 UTC 2019
+Aug 17 16:21:50 vagrant-centos6 kernel: Command line: ro root=/dev/mapper/vg_vagrantcentos6-lv_root rd_NO_LUKS  KEYBOARDTYPE=pc KEYTABLE=us LANG=en_US.UTF-8 rd_LVM_LV=vg_vagrantcentos6/lv_root rd_NO_MD rd_LVM_LV=vg_vagrantcentos6/lv_swap crashkernel=auto SYSFONT=latarcyrheb-sun16 rd_NO_DM rhgb quiet
+Aug 17 16:21:50 vagrant-centos6 kernel: KERNEL supported cpus:
+Aug 17 16:21:50 vagrant-centos6 kernel:  Intel GenuineIntel
+Aug 17 16:21:50 vagrant-centos6 kernel:  AMD AuthenticAMD
+Aug 17 16:21:50 vagrant-centos6 kernel:  Centaur CentaurHauls
+Aug 17 16:21:50 vagrant-centos6 kernel: BIOS-provided physical RAM map:
+Aug 17 16:21:50 vagrant-centos6 kernel: BIOS-e820: 0000000000000000 - 000000000009fc00 (usable)
+Aug 17 16:21:50 vagrant-centos6 kernel: BIOS-e820: 000000000009fc00 - 00000000000a0000 (reserved)
+Aug 17 16:21:50 vagrant-centos6 kernel: BIOS-e820: 00000000000f0000 - 0000000000100000 (reserved)
+Aug 17 16:21:50 vagrant-centos6 kernel: BIOS-e820: 0000000000100000 - 000000007ffdc000 (usable)
+Aug 17 16:21:50 vagrant-centos6 kernel: BIOS-e820: 000000007ffdc000 - 0000000080000000 (reserved)
+Aug 17 16:21:50 vagrant-centos6 kernel: BIOS-e820: 00000000feffc000 - 00000000ff000000 (reserved)
+Aug 17 16:21:50 vagrant-centos6 kernel: BIOS-e820: 00000000fffc0000 - 0000000100000000 (reserved)
+Aug 17 16:21:50 vagrant-centos6 kernel: SMBIOS version 2.8 @ 0xF6060
+Aug 17 16:21:50 vagrant-centos6 kernel: SMBIOS 2.8 present.
+Aug 17 16:21:50 vagrant-centos6 kernel: Hypervisor detected: KVM
+Aug 17 16:21:50 vagrant-centos6 kernel: last_pfn = 0x7ffdc max_arch_pfn = 0x400000000
+Aug 17 16:21:50 vagrant-centos6 kernel: x86 PAT enabled: cpu 0, old 0x7040600070406, new 0x7010600070106
+Aug 17 16:21:50 vagrant-centos6 kernel: init_memory_mapping: 0000000000000000-000000007ffdc000
+Aug 17 16:21:50 vagrant-centos6 kernel: RAMDISK: 36e4f000 - 37fefca8
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: Deleted _OSI(Windows 2012)
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: Deleted _OSI(Windows 2013)
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: RSDP 00000000000f6030 00014 (v00 BOCHS )
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: RSDT 000000007ffe2850 00030 (v01 BOCHS  BXPCRSDT 00000001 BXPC 00000001)
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: FACP 000000007ffe251c 00074 (v01 BOCHS  BXPCFACP 00000001 BXPC 00000001)
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: DSDT 000000007ffe0040 024DC (v01 BOCHS  BXPCDSDT 00000001 BXPC 00000001)
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: FACS 000000007ffe0000 00040
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: APIC 000000007ffe2590 000F0 (v01 BOCHS  BXPCAPIC 00000001 BXPC 00000001)
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: SRAT 000000007ffe2680 001D0 (v01 BOCHS  BXPCSRAT 00000001 BXPC 00000001)
+Aug 17 16:21:50 vagrant-centos6 kernel: Setting APIC routing to flat.
+Aug 17 16:21:50 vagrant-centos6 kernel: SRAT: PXM 0 -> APIC 0 -> Node 0
+Aug 17 16:21:50 vagrant-centos6 kernel: SRAT: PXM 0 -> APIC 1 -> Node 0
+Aug 17 16:21:50 vagrant-centos6 kernel: SRAT: PXM 0 -> APIC 2 -> Node 0
+Aug 17 16:21:50 vagrant-centos6 kernel: SRAT: PXM 0 -> APIC 3 -> Node 0
+Aug 17 16:21:50 vagrant-centos6 kernel: SRAT: PXM 0 -> APIC 4 -> Node 0
+Aug 17 16:21:50 vagrant-centos6 kernel: SRAT: PXM 0 -> APIC 5 -> Node 0
+Aug 17 16:21:50 vagrant-centos6 kernel: SRAT: PXM 0 -> APIC 6 -> Node 0
+Aug 17 16:21:50 vagrant-centos6 kernel: SRAT: PXM 0 -> APIC 7 -> Node 0
+Aug 17 16:21:50 vagrant-centos6 kernel: SRAT: PXM 0 -> APIC 8 -> Node 0
+Aug 17 16:21:50 vagrant-centos6 kernel: SRAT: PXM 0 -> APIC 9 -> Node 0
+Aug 17 16:21:50 vagrant-centos6 kernel: SRAT: PXM 0 -> APIC 10 -> Node 0
+Aug 17 16:21:50 vagrant-centos6 kernel: SRAT: PXM 0 -> APIC 11 -> Node 0
+Aug 17 16:21:50 vagrant-centos6 kernel: SRAT: PXM 0 -> APIC 12 -> Node 0
+Aug 17 16:21:50 vagrant-centos6 kernel: SRAT: PXM 0 -> APIC 13 -> Node 0
+Aug 17 16:21:50 vagrant-centos6 kernel: SRAT: PXM 0 -> APIC 14 -> Node 0
+Aug 17 16:21:50 vagrant-centos6 kernel: SRAT: PXM 0 -> APIC 15 -> Node 0
+Aug 17 16:21:50 vagrant-centos6 kernel: SRAT: Node 0 PXM 0 0-a0000
+Aug 17 16:21:50 vagrant-centos6 kernel: SRAT: Node 0 PXM 0 100000-80000000
+Aug 17 16:21:50 vagrant-centos6 kernel: SRAT: Node 0 PXM 0 100000000-680000000
+Aug 17 16:21:50 vagrant-centos6 kernel: SRAT: hot plug zone found 100000000 - 680000000
+Aug 17 16:21:50 vagrant-centos6 kernel: Bootmem setup node 0 0000000000000000-000000007ffdc000
+Aug 17 16:21:50 vagrant-centos6 kernel:  NODE_DATA [0000000000017040 - 000000000004b03f]
+Aug 17 16:21:50 vagrant-centos6 kernel:  bootmap [000000000004c000 -  000000000005bfff] pages 10
+Aug 17 16:21:50 vagrant-centos6 kernel: (8 early reservations) ==> bootmem [0000000000 - 007ffdc000]
+Aug 17 16:21:50 vagrant-centos6 kernel:  #0 [0000000000 - 0000001000]   BIOS data page ==> [0000000000 - 0000001000]
+Aug 17 16:21:50 vagrant-centos6 kernel:  #1 [0000006000 - 0000008000]       TRAMPOLINE ==> [0000006000 - 0000008000]
+Aug 17 16:21:50 vagrant-centos6 kernel:  #2 [0001000000 - 0002052a64]    TEXT DATA BSS ==> [0001000000 - 0002052a64]
+Aug 17 16:21:50 vagrant-centos6 kernel:  #3 [0036e4f000 - 0037fefca8]          RAMDISK ==> [0036e4f000 - 0037fefca8]
+Aug 17 16:21:50 vagrant-centos6 kernel:  #4 [000009fc00 - 0000100000]    BIOS reserved ==> [000009fc00 - 0000100000]
+Aug 17 16:21:50 vagrant-centos6 kernel:  #5 [0002053000 - 0002053101]              BRK ==> [0002053000 - 0002053101]
+Aug 17 16:21:50 vagrant-centos6 kernel:  #6 [0000008000 - 000000a000]          PGTABLE ==> [0000008000 - 000000a000]
+Aug 17 16:21:50 vagrant-centos6 kernel:  #7 [000000a000 - 0000017040]       MEMNODEMAP ==> [000000a000 - 0000017040]
+Aug 17 16:21:50 vagrant-centos6 kernel: found SMP MP-table at [ffff8800000f6260] f6260
+Aug 17 16:21:50 vagrant-centos6 kernel: Found 129MB of memory at 48MB for crashkernel auto 
+Aug 17 16:21:50 vagrant-centos6 kernel: Reserving 129MB of memory at 48MB for crashkernel (System RAM: 2047MB)
+Aug 17 16:21:50 vagrant-centos6 kernel: kvm-clock: Using msrs 4b564d01 and 4b564d00
+Aug 17 16:21:50 vagrant-centos6 kernel: kvm-clock: cpu 0, msr 0:1c3db81, boot clock
+Aug 17 16:21:50 vagrant-centos6 kernel: Zone PFN ranges:
+Aug 17 16:21:50 vagrant-centos6 kernel:  DMA      0x00000001 -> 0x00001000
+Aug 17 16:21:50 vagrant-centos6 kernel:  DMA32    0x00001000 -> 0x00100000
+Aug 17 16:21:50 vagrant-centos6 kernel:  Normal   0x00100000 -> 0x00100000
+Aug 17 16:21:50 vagrant-centos6 kernel: Movable zone start PFN for each node
+Aug 17 16:21:50 vagrant-centos6 kernel: early_node_map[2] active PFN ranges
+Aug 17 16:21:50 vagrant-centos6 kernel:    0: 0x00000001 -> 0x0000009f
+Aug 17 16:21:50 vagrant-centos6 kernel:    0: 0x00000100 -> 0x0007ffdc
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: PM-Timer IO Port: 0x608
+Aug 17 16:21:50 vagrant-centos6 kernel: Setting APIC routing to flat.
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] disabled)
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: LAPIC (acpi_id[0x02] lapic_id[0x02] disabled)
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: LAPIC (acpi_id[0x03] lapic_id[0x03] disabled)
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: LAPIC (acpi_id[0x04] lapic_id[0x04] disabled)
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: LAPIC (acpi_id[0x05] lapic_id[0x05] disabled)
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: LAPIC (acpi_id[0x06] lapic_id[0x06] disabled)
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: LAPIC (acpi_id[0x07] lapic_id[0x07] disabled)
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: LAPIC (acpi_id[0x08] lapic_id[0x08] disabled)
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: LAPIC (acpi_id[0x09] lapic_id[0x09] disabled)
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: LAPIC (acpi_id[0x0a] lapic_id[0x0a] disabled)
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: LAPIC (acpi_id[0x0b] lapic_id[0x0b] disabled)
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: LAPIC (acpi_id[0x0c] lapic_id[0x0c] disabled)
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: LAPIC (acpi_id[0x0d] lapic_id[0x0d] disabled)
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: LAPIC (acpi_id[0x0e] lapic_id[0x0e] disabled)
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: LAPIC (acpi_id[0x0f] lapic_id[0x0f] disabled)
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: IOAPIC (id[0x00] address[0xfec00000] gsi_base[0])
+Aug 17 16:21:50 vagrant-centos6 kernel: IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+Aug 17 16:21:50 vagrant-centos6 kernel: Using ACPI (MADT) for SMP configuration information
+Aug 17 16:21:50 vagrant-centos6 kernel: SMP: Allowing 16 CPUs, 15 hotplug CPUs
+Aug 17 16:21:50 vagrant-centos6 kernel: PM: Registered nosave memory: 000000000009f000 - 00000000000a0000
+Aug 17 16:21:50 vagrant-centos6 kernel: PM: Registered nosave memory: 00000000000a0000 - 00000000000f0000
+Aug 17 16:21:50 vagrant-centos6 kernel: PM: Registered nosave memory: 00000000000f0000 - 0000000000100000
+Aug 17 16:21:50 vagrant-centos6 kernel: Allocating PCI resources starting at 80000000 (gap: 80000000:7effc000)
+Aug 17 16:21:50 vagrant-centos6 kernel: Booting paravirtualized kernel on KVM
+Aug 17 16:21:50 vagrant-centos6 kernel: NR_CPUS:4096 nr_cpumask_bits:16 nr_cpu_ids:16 nr_node_ids:1
+Aug 17 16:21:50 vagrant-centos6 kernel: PERCPU: Embedded 33 pages/cpu @ffff88000c400000 s104088 r8192 d22888 u262144
+Aug 17 16:21:50 vagrant-centos6 kernel: pcpu-alloc: s104088 r8192 d22888 u262144 alloc=1*2097152
+Aug 17 16:21:50 vagrant-centos6 kernel: pcpu-alloc: [0] 00 01 02 03 04 05 06 07 [0] 08 09 10 11 12 13 14 15 
+Aug 17 16:21:50 vagrant-centos6 kernel: kvm-clock: cpu 0, msr 0:c418b81, primary cpu clock
+Aug 17 16:21:50 vagrant-centos6 kernel: kvm-stealtime: cpu 0, msr c412d00
+Aug 17 16:21:50 vagrant-centos6 kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 516872
+Aug 17 16:21:50 vagrant-centos6 kernel: Policy zone: DMA32
+Aug 17 16:21:50 vagrant-centos6 kernel: Kernel command line: ro root=/dev/mapper/vg_vagrantcentos6-lv_root rd_NO_LUKS  KEYBOARDTYPE=pc KEYTABLE=us LANG=en_US.UTF-8 rd_LVM_LV=vg_vagrantcentos6/lv_root rd_NO_MD rd_LVM_LV=vg_vagrantcentos6/lv_swap crashkernel=129M@48M SYSFONT=latarcyrheb-sun16 rd_NO_DM rhgb quiet
+Aug 17 16:21:50 vagrant-centos6 kernel: PID hash table entries: 4096 (order: 3, 32768 bytes)
+Aug 17 16:21:50 vagrant-centos6 kernel: x86/fpu: xstate_offset[2]: 0240, xstate_sizes[2]: 0100
+Aug 17 16:21:50 vagrant-centos6 kernel: xsave: enabled eager FPU xstate_bv 0x7, cntxt size 0x340
+Aug 17 16:21:50 vagrant-centos6 kernel: Memory: 1898400k/2097008k available (5540k kernel code, 392k absent, 198216k reserved, 6889k data, 1348k init)
+Aug 17 16:21:50 vagrant-centos6 kernel: Kernel/User page tables isolation: enabled
+Aug 17 16:21:50 vagrant-centos6 kernel: Hierarchical RCU implementation.
+Aug 17 16:21:50 vagrant-centos6 kernel: NR_IRQS:33024 nr_irqs:536
+Aug 17 16:21:50 vagrant-centos6 kernel: Console: colour VGA+ 80x25
+Aug 17 16:21:50 vagrant-centos6 kernel: console [tty0] enabled
+Aug 17 16:21:50 vagrant-centos6 kernel: allocated 8388608 bytes of page_cgroup
+Aug 17 16:21:50 vagrant-centos6 kernel: please try 'cgroup_disable=memory' option if you don't want memory cgroups
+Aug 17 16:21:50 vagrant-centos6 kernel: Detected 1999.999 MHz processor.
+Aug 17 16:21:50 vagrant-centos6 kernel: Calibrating delay loop (skipped) preset value.. 3999.99 BogoMIPS (lpj=1999999)
+Aug 17 16:21:50 vagrant-centos6 kernel: pid_max: default: 32768 minimum: 301
+Aug 17 16:21:50 vagrant-centos6 kernel: Security Framework initialized
+Aug 17 16:21:50 vagrant-centos6 kernel: SELinux:  Initializing.
+Aug 17 16:21:50 vagrant-centos6 kernel: Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+Aug 17 16:21:50 vagrant-centos6 kernel: Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Aug 17 16:21:50 vagrant-centos6 kernel: Mount-cache hash table entries: 256
+Aug 17 16:21:50 vagrant-centos6 kernel: Initializing cgroup subsys ns
+Aug 17 16:21:50 vagrant-centos6 kernel: Initializing cgroup subsys cpuacct
+Aug 17 16:21:50 vagrant-centos6 kernel: Initializing cgroup subsys memory
+Aug 17 16:21:50 vagrant-centos6 kernel: Initializing cgroup subsys devices
+Aug 17 16:21:50 vagrant-centos6 kernel: Initializing cgroup subsys freezer
+Aug 17 16:21:50 vagrant-centos6 kernel: Initializing cgroup subsys net_cls
+Aug 17 16:21:50 vagrant-centos6 kernel: Initializing cgroup subsys blkio
+Aug 17 16:21:50 vagrant-centos6 kernel: Initializing cgroup subsys perf_event
+Aug 17 16:21:50 vagrant-centos6 kernel: Initializing cgroup subsys net_prio
+Aug 17 16:21:50 vagrant-centos6 kernel: mce: CPU supports 10 MCE banks
+Aug 17 16:21:50 vagrant-centos6 kernel: Speculative Store Bypass: Vulnerable
+Aug 17 16:21:50 vagrant-centos6 kernel: MDS: Vulnerable: Clear CPU buffers attempted, no microcode
+Aug 17 16:21:50 vagrant-centos6 kernel: FEATURE SPEC_CTRL Not Present
+Aug 17 16:21:50 vagrant-centos6 kernel: FEATURE IBPB_SUPPORT Not Present
+Aug 17 16:21:50 vagrant-centos6 kernel: Spectre V2 : Mitigation: Full retpoline
+Aug 17 16:21:50 vagrant-centos6 kernel: alternatives: switching to unfair spinlock
+Aug 17 16:21:50 vagrant-centos6 kernel: SMP alternatives: switching to UP code
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: Core revision 20090903
+Aug 17 16:21:50 vagrant-centos6 kernel: ftrace: converting mcount calls to 0f 1f 44 00 00
+Aug 17 16:21:50 vagrant-centos6 kernel: ftrace: allocating 22093 entries in 87 pages
+Aug 17 16:21:50 vagrant-centos6 kernel: Enabling x2apic
+Aug 17 16:21:50 vagrant-centos6 kernel: Enabled x2apic
+Aug 17 16:21:50 vagrant-centos6 kernel: APIC routing finalized to physical x2apic.
+Aug 17 16:21:50 vagrant-centos6 kernel: ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Aug 17 16:21:50 vagrant-centos6 kernel: CPU0: Intel Xeon E312xx (Sandy Bridge) stepping 01
+Aug 17 16:21:50 vagrant-centos6 kernel: Performance Events: unsupported p6 CPU model 42 no PMU driver, software events only.
+Aug 17 16:21:50 vagrant-centos6 kernel: NMI watchdog disabled (cpu0): hardware events not enabled
+Aug 17 16:21:50 vagrant-centos6 kernel: Brought up 1 CPUs
+Aug 17 16:21:50 vagrant-centos6 kernel: Total of 1 processors activated (3999.99 BogoMIPS).
+Aug 17 16:21:50 vagrant-centos6 kernel: devtmpfs: initialized
+Aug 17 16:21:50 vagrant-centos6 kernel: regulator: core version 0.5
+Aug 17 16:21:50 vagrant-centos6 kernel: NET: Registered protocol family 16
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: bus type pci registered
+Aug 17 16:21:50 vagrant-centos6 kernel: PCI: Using configuration type 1 for base access
+Aug 17 16:21:50 vagrant-centos6 kernel: bio: create slab <bio-0> at 0
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: Interpreter enabled
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: (supports S0 S5)
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: Using IOAPIC for interrupt routing
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: No dock devices found.
+Aug 17 16:21:50 vagrant-centos6 kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Aug 17 16:21:50 vagrant-centos6 kernel: pci_root PNP0A03:00: host bridge window [io  0x0000-0x0cf7]
+Aug 17 16:21:50 vagrant-centos6 kernel: pci_root PNP0A03:00: host bridge window [io  0x0d00-0xffff]
+Aug 17 16:21:50 vagrant-centos6 kernel: pci_root PNP0A03:00: host bridge window [mem 0x000a0000-0x000bffff]
+Aug 17 16:21:50 vagrant-centos6 kernel: pci_root PNP0A03:00: host bridge window [mem 0x80000000-0xfebfffff]
+Aug 17 16:21:50 vagrant-centos6 kernel: pci_root PNP0A03:00: host bridge window [mem 0x680000000-0x6ffffffff]
+Aug 17 16:21:50 vagrant-centos6 kernel: PCI host bridge to bus 0000:00
+Aug 17 16:21:50 vagrant-centos6 kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7]
+Aug 17 16:21:50 vagrant-centos6 kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xffff]
+Aug 17 16:21:50 vagrant-centos6 kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff]
+Aug 17 16:21:50 vagrant-centos6 kernel: pci_bus 0000:00: root bus resource [mem 0x80000000-0xfebfffff]
+Aug 17 16:21:50 vagrant-centos6 kernel: pci_bus 0000:00: root bus resource [mem 0x680000000-0x6ffffffff]
+Aug 17 16:21:50 vagrant-centos6 kernel: pci 0000:00:01.3: quirk: [io  0x0600-0x063f] claimed by PIIX4 ACPI
+Aug 17 16:21:50 vagrant-centos6 kernel: pci 0000:00:01.3: quirk: [io  0x0700-0x070f] claimed by PIIX4 SMB
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 5 *10 11)
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 5 10 *11)
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: PCI Interrupt Link [LNKS] (IRQs *9)
+Aug 17 16:21:50 vagrant-centos6 kernel: vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Aug 17 16:21:50 vagrant-centos6 kernel: vgaarb: loaded
+Aug 17 16:21:50 vagrant-centos6 kernel: vgaarb: bridge control possible 0000:00:02.0
+Aug 17 16:21:50 vagrant-centos6 kernel: SCSI subsystem initialized
+Aug 17 16:21:50 vagrant-centos6 kernel: usbcore: registered new interface driver usbfs
+Aug 17 16:21:50 vagrant-centos6 kernel: usbcore: registered new interface driver hub
+Aug 17 16:21:50 vagrant-centos6 kernel: usbcore: registered new device driver usb
+Aug 17 16:21:50 vagrant-centos6 kernel: PCI: Using ACPI for IRQ routing
+Aug 17 16:21:50 vagrant-centos6 kernel: NetLabel: Initializing
+Aug 17 16:21:50 vagrant-centos6 kernel: NetLabel:  domain hash size = 128
+Aug 17 16:21:50 vagrant-centos6 kernel: NetLabel:  protocols = UNLABELED CIPSOv4
+Aug 17 16:21:50 vagrant-centos6 kernel: NetLabel:  unlabeled traffic allowed by default
+Aug 17 16:21:50 vagrant-centos6 kernel: Switching to clocksource kvm-clock
+Aug 17 16:21:50 vagrant-centos6 kernel: pnp: PnP ACPI init
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: bus type pnp registered
+Aug 17 16:21:50 vagrant-centos6 kernel: pnp: PnP ACPI: found 9 devices
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: ACPI bus type pnp unregistered
+Aug 17 16:21:50 vagrant-centos6 kernel: NET: Registered protocol family 2
+Aug 17 16:21:50 vagrant-centos6 kernel: IP route cache hash table entries: 65536 (order: 7, 524288 bytes)
+Aug 17 16:21:50 vagrant-centos6 kernel: TCP established hash table entries: 262144 (order: 10, 4194304 bytes)
+Aug 17 16:21:50 vagrant-centos6 kernel: TCP bind hash table entries: 65536 (order: 8, 1048576 bytes)
+Aug 17 16:21:50 vagrant-centos6 kernel: TCP: Hash tables configured (established 262144 bind 65536)
+Aug 17 16:21:50 vagrant-centos6 kernel: TCP reno registered
+Aug 17 16:21:50 vagrant-centos6 kernel: NET: Registered protocol family 1
+Aug 17 16:21:50 vagrant-centos6 kernel: pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Aug 17 16:21:50 vagrant-centos6 kernel: pci 0000:00:01.0: PIIX3: Enabling Passive Release
+Aug 17 16:21:50 vagrant-centos6 kernel: pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: PCI Interrupt Link [LNKD] enabled at IRQ 11
+Aug 17 16:21:50 vagrant-centos6 kernel: pci 0000:00:01.2: PCI INT D -> Link[LNKD] -> GSI 11 (level, high) -> IRQ 11
+Aug 17 16:21:50 vagrant-centos6 kernel: pci 0000:00:01.2: PCI INT D disabled
+Aug 17 16:21:50 vagrant-centos6 kernel: Trying to unpack rootfs image as initramfs...
+Aug 17 16:21:50 vagrant-centos6 kernel: Freeing initrd memory: 18051k freed
+Aug 17 16:21:50 vagrant-centos6 kernel: sha256_ssse3: Using AVX optimized SHA-256 implementation
+Aug 17 16:21:50 vagrant-centos6 kernel: futex hash table entries: 4096 (order: 6, 262144 bytes)
+Aug 17 16:21:50 vagrant-centos6 kernel: audit: initializing netlink socket (disabled)
+Aug 17 16:21:50 vagrant-centos6 kernel: type=2000 audit(1629231701.671:1): initialized
+Aug 17 16:21:50 vagrant-centos6 kernel: HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Aug 17 16:21:50 vagrant-centos6 kernel: VFS: Disk quotas dquot_6.5.2
+Aug 17 16:21:50 vagrant-centos6 kernel: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Aug 17 16:21:50 vagrant-centos6 kernel: msgmni has been set to 3743
+Aug 17 16:21:50 vagrant-centos6 kernel: ksign: Installing public key data
+Aug 17 16:21:50 vagrant-centos6 kernel: Loading keyring
+Aug 17 16:21:50 vagrant-centos6 kernel: - Added public key AB4F5DBAD265ED6E
+Aug 17 16:21:50 vagrant-centos6 kernel: - User ID: CentOS (Kernel Module GPG key)
+Aug 17 16:21:50 vagrant-centos6 kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 250)
+Aug 17 16:21:50 vagrant-centos6 kernel: io scheduler noop registered
+Aug 17 16:21:50 vagrant-centos6 kernel: io scheduler anticipatory registered
+Aug 17 16:21:50 vagrant-centos6 kernel: io scheduler deadline registered
+Aug 17 16:21:50 vagrant-centos6 kernel: io scheduler cfq registered (default)
+Aug 17 16:21:50 vagrant-centos6 kernel: pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Aug 17 16:21:50 vagrant-centos6 kernel: pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Aug 17 16:21:50 vagrant-centos6 kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Aug 17 16:21:50 vagrant-centos6 kernel: acpiphp: Slot [3] registered
+Aug 17 16:21:50 vagrant-centos6 kernel: acpiphp: Slot [4] registered
+Aug 17 16:21:50 vagrant-centos6 kernel: acpiphp: Slot [5] registered
+Aug 17 16:21:50 vagrant-centos6 kernel: acpiphp: Slot [6] registered
+Aug 17 16:21:50 vagrant-centos6 kernel: acpiphp: Slot [7] registered
+Aug 17 16:21:50 vagrant-centos6 kernel: acpiphp: Slot [8] registered
+Aug 17 16:21:50 vagrant-centos6 kernel: acpiphp: Slot [9] registered
+Aug 17 16:21:50 vagrant-centos6 kernel: acpiphp: Slot [10] registered
+Aug 17 16:21:50 vagrant-centos6 kernel: acpiphp: Slot [11] registered
+Aug 17 16:21:50 vagrant-centos6 kernel: acpiphp: Slot [12] registered
+Aug 17 16:21:50 vagrant-centos6 kernel: acpiphp: Slot [13] registered
+Aug 17 16:21:50 vagrant-centos6 kernel: acpiphp: Slot [14] registered
+Aug 17 16:21:50 vagrant-centos6 kernel: acpiphp: Slot [15] registered
+Aug 17 16:21:50 vagrant-centos6 kernel: acpiphp: Slot [16] registered
+Aug 17 16:21:50 vagrant-centos6 kernel: acpiphp: Slot [17] registered
+Aug 17 16:21:50 vagrant-centos6 kernel: acpiphp: Slot [18] registered
+Aug 17 16:21:50 vagrant-centos6 kernel: acpiphp: Slot [19] registered
+Aug 17 16:21:50 vagrant-centos6 kernel: acpiphp: Slot [20] registered
+Aug 17 16:21:50 vagrant-centos6 kernel: acpiphp: Slot [21] registered
+Aug 17 16:21:50 vagrant-centos6 kernel: acpiphp: Slot [22] registered
+Aug 17 16:21:50 vagrant-centos6 kernel: acpiphp: Slot [23] registered
+Aug 17 16:21:50 vagrant-centos6 kernel: acpiphp: Slot [24] registered
+Aug 17 16:21:50 vagrant-centos6 kernel: acpiphp: Slot [25] registered
+Aug 17 16:21:50 vagrant-centos6 kernel: acpiphp: Slot [26] registered
+Aug 17 16:21:50 vagrant-centos6 kernel: acpiphp: Slot [27] registered
+Aug 17 16:21:50 vagrant-centos6 kernel: acpiphp: Slot [28] registered
+Aug 17 16:21:50 vagrant-centos6 kernel: acpiphp: Slot [29] registered
+Aug 17 16:21:50 vagrant-centos6 kernel: acpiphp: Slot [30] registered
+Aug 17 16:21:50 vagrant-centos6 kernel: acpiphp: Slot [31] registered
+Aug 17 16:21:50 vagrant-centos6 kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: Power Button [PWRF]
+Aug 17 16:21:50 vagrant-centos6 kernel: [Firmware Bug]: No valid trip found
+Aug 17 16:21:50 vagrant-centos6 kernel: GHES: HEST is not enabled!
+Aug 17 16:21:50 vagrant-centos6 kernel: Non-volatile memory driver v1.3
+Aug 17 16:21:50 vagrant-centos6 kernel: Linux agpgart interface v0.103
+Aug 17 16:21:50 vagrant-centos6 kernel: crash memory driver: version 1.1
+Aug 17 16:21:50 vagrant-centos6 kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Aug 17 16:21:50 vagrant-centos6 kernel: brd: module loaded
+Aug 17 16:21:50 vagrant-centos6 kernel: loop: module loaded
+Aug 17 16:21:50 vagrant-centos6 kernel: input: Macintosh mouse button emulation as /devices/virtual/input/input1
+Aug 17 16:21:50 vagrant-centos6 kernel: Fixed MDIO Bus: probed
+Aug 17 16:21:50 vagrant-centos6 kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Aug 17 16:21:50 vagrant-centos6 kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Aug 17 16:21:50 vagrant-centos6 kernel: uhci_hcd: USB Universal Host Controller Interface driver
+Aug 17 16:21:50 vagrant-centos6 kernel: uhci_hcd 0000:00:01.2: PCI INT D -> Link[LNKD] -> GSI 11 (level, high) -> IRQ 11
+Aug 17 16:21:50 vagrant-centos6 kernel: uhci_hcd 0000:00:01.2: UHCI Host Controller
+Aug 17 16:21:50 vagrant-centos6 kernel: uhci_hcd 0000:00:01.2: new USB bus registered, assigned bus number 1
+Aug 17 16:21:50 vagrant-centos6 kernel: uhci_hcd 0000:00:01.2: irq 11, io base 0x0000c0c0
+Aug 17 16:21:50 vagrant-centos6 kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+Aug 17 16:21:50 vagrant-centos6 kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Aug 17 16:21:50 vagrant-centos6 kernel: usb usb1: Product: UHCI Host Controller
+Aug 17 16:21:50 vagrant-centos6 kernel: usb usb1: Manufacturer: Linux 2.6.32-754.14.2.el6.x86_64 uhci_hcd
+Aug 17 16:21:50 vagrant-centos6 kernel: usb usb1: SerialNumber: 0000:00:01.2
+Aug 17 16:21:50 vagrant-centos6 kernel: usb usb1: configuration #1 chosen from 1 choice
+Aug 17 16:21:50 vagrant-centos6 kernel: hub 1-0:1.0: USB hub found
+Aug 17 16:21:50 vagrant-centos6 kernel: hub 1-0:1.0: 2 ports detected
+Aug 17 16:21:50 vagrant-centos6 kernel: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+Aug 17 16:21:50 vagrant-centos6 kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+Aug 17 16:21:50 vagrant-centos6 kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+Aug 17 16:21:50 vagrant-centos6 kernel: mice: PS/2 mouse device common for all mice
+Aug 17 16:21:50 vagrant-centos6 kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Aug 17 16:21:50 vagrant-centos6 kernel: rtc_cmos 00:01: RTC can wake from S4
+Aug 17 16:21:50 vagrant-centos6 kernel: rtc_cmos 00:01: rtc core: registered rtc_cmos as rtc0
+Aug 17 16:21:50 vagrant-centos6 kernel: rtc0: alarms up to one day, y3k, 114 bytes nvram
+Aug 17 16:21:50 vagrant-centos6 kernel: cpuidle: using governor ladder
+Aug 17 16:21:50 vagrant-centos6 kernel: cpuidle: using governor menu
+Aug 17 16:21:50 vagrant-centos6 kernel: EFI Variables Facility v0.08 2004-May-17
+Aug 17 16:21:50 vagrant-centos6 kernel: usbcore: registered new interface driver hiddev
+Aug 17 16:21:50 vagrant-centos6 kernel: usbcore: registered new interface driver usbhid
+Aug 17 16:21:50 vagrant-centos6 kernel: usbhid: v2.6:USB HID core driver
+Aug 17 16:21:50 vagrant-centos6 kernel: GRE over IPv4 demultiplexor driver
+Aug 17 16:21:50 vagrant-centos6 kernel: TCP cubic registered
+Aug 17 16:21:50 vagrant-centos6 kernel: Initializing XFRM netlink socket
+Aug 17 16:21:50 vagrant-centos6 kernel: NET: Registered protocol family 17
+Aug 17 16:21:50 vagrant-centos6 kernel: registered taskstats version 1
+Aug 17 16:21:50 vagrant-centos6 kernel: rtc_cmos 00:01: setting system clock to 2021-08-17 20:21:40 UTC (1629231700)
+Aug 17 16:21:50 vagrant-centos6 kernel: Initalizing network drop monitor service
+Aug 17 16:21:50 vagrant-centos6 kernel: Freeing unused kernel memory: 1348k freed
+Aug 17 16:21:50 vagrant-centos6 kernel: Write protecting the kernel read-only data: 10240k
+Aug 17 16:21:50 vagrant-centos6 kernel: Freeing unused kernel memory: 584k freed
+Aug 17 16:21:50 vagrant-centos6 kernel: Freeing unused kernel memory: 1524k freed
+Aug 17 16:21:50 vagrant-centos6 kernel: dracut: dracut-004-411.el6
+Aug 17 16:21:50 vagrant-centos6 kernel: dracut: rd_NO_LUKS: removing cryptoluks activation
+Aug 17 16:21:50 vagrant-centos6 kernel: device-mapper: uevent: version 1.0.3
+Aug 17 16:21:50 vagrant-centos6 kernel: device-mapper: ioctl: 4.33.1-ioctl (2015-8-18) initialised: dm-devel@redhat.com
+Aug 17 16:21:50 vagrant-centos6 kernel: udev: starting version 147
+Aug 17 16:21:50 vagrant-centos6 kernel: dracut: Starting plymouth daemon
+Aug 17 16:21:50 vagrant-centos6 kernel: dracut: rd_NO_MD: removing MD RAID activation
+Aug 17 16:21:50 vagrant-centos6 kernel: scsi0 : ata_piix
+Aug 17 16:21:50 vagrant-centos6 kernel: scsi1 : ata_piix
+Aug 17 16:21:50 vagrant-centos6 kernel: ata1: PATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xc120 irq 14
+Aug 17 16:21:50 vagrant-centos6 kernel: ata2: PATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xc128 irq 15
+Aug 17 16:21:50 vagrant-centos6 kernel: input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input3
+Aug 17 16:21:50 vagrant-centos6 kernel: ata2.00: ATAPI: QEMU DVD-ROM, 2.5+, max UDMA/100
+Aug 17 16:21:50 vagrant-centos6 kernel: ata2.00: configured for MWDMA2
+Aug 17 16:21:50 vagrant-centos6 kernel: scsi 1:0:0:0: CD-ROM            QEMU     QEMU DVD-ROM     2.5+ PQ: 0 ANSI: 5
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: PCI Interrupt Link [LNKC] enabled at IRQ 10
+Aug 17 16:21:50 vagrant-centos6 kernel: virtio-pci 0000:00:03.0: PCI INT A -> Link[LNKC] -> GSI 10 (level, high) -> IRQ 10
+Aug 17 16:21:50 vagrant-centos6 kernel: virtio-pci 0000:00:04.0: PCI INT A -> Link[LNKD] -> GSI 11 (level, high) -> IRQ 11
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: PCI Interrupt Link [LNKA] enabled at IRQ 10
+Aug 17 16:21:50 vagrant-centos6 kernel: virtio-pci 0000:00:05.0: PCI INT A -> Link[LNKA] -> GSI 10 (level, high) -> IRQ 10
+Aug 17 16:21:50 vagrant-centos6 kernel: ACPI: PCI Interrupt Link [LNKB] enabled at IRQ 11
+Aug 17 16:21:50 vagrant-centos6 kernel: virtio-pci 0000:00:06.0: PCI INT A -> Link[LNKB] -> GSI 11 (level, high) -> IRQ 11
+Aug 17 16:21:50 vagrant-centos6 kernel: sr0: scsi3-mmc drive: 4x/4x cd/rw xa/form2 tray
+Aug 17 16:21:50 vagrant-centos6 kernel: Uniform CD-ROM driver Revision: 3.20
+Aug 17 16:21:50 vagrant-centos6 kernel: scsi2 : Virtio SCSI HBA
+Aug 17 16:21:50 vagrant-centos6 kernel: scsi 2:0:0:0: Direct-Access     QEMU     QEMU HARDDISK    2.5+ PQ: 0 ANSI: 5
+Aug 17 16:21:50 vagrant-centos6 kernel: sd 2:0:0:0: [sda] 31457280 512-byte logical blocks: (16.1 GB/15.0 GiB)
+Aug 17 16:21:50 vagrant-centos6 kernel: sd 2:0:0:0: [sda] Write Protect is off
+Aug 17 16:21:50 vagrant-centos6 kernel: sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Aug 17 16:21:50 vagrant-centos6 kernel: sda: sda1 sda2
+Aug 17 16:21:50 vagrant-centos6 kernel: sd 2:0:0:0: [sda] Attached SCSI disk
+Aug 17 16:21:50 vagrant-centos6 kernel: dracut: Scanning devices sda2  for LVM logical volumes vg_vagrantcentos6/lv_root vg_vagrantcentos6/lv_swap 
+Aug 17 16:21:50 vagrant-centos6 kernel: dracut: inactive '/dev/vg_vagrantcentos6/lv_root' [13.01 GiB] inherit
+Aug 17 16:21:50 vagrant-centos6 kernel: dracut: inactive '/dev/vg_vagrantcentos6/lv_swap' [1.50 GiB] inherit
+Aug 17 16:21:50 vagrant-centos6 kernel: EXT4-fs (dm-0): mounted filesystem with ordered data mode. Opts: 
+Aug 17 16:21:50 vagrant-centos6 kernel: dracut: Mounted root filesystem /dev/mapper/vg_vagrantcentos6-lv_root
+Aug 17 16:21:50 vagrant-centos6 kernel: SELinux:  Disabled at runtime.
+Aug 17 16:21:50 vagrant-centos6 kernel: type=1404 audit(1629231703.041:2): selinux=0 auid=4294967295 ses=4294967295
+Aug 17 16:21:50 vagrant-centos6 kernel: dracut: 
+Aug 17 16:21:50 vagrant-centos6 kernel: dracut: Switching root
+Aug 17 16:21:50 vagrant-centos6 kernel: udev: starting version 147
+Aug 17 16:21:50 vagrant-centos6 kernel: sr 1:0:0:0: Attached scsi generic sg0 type 5
+Aug 17 16:21:50 vagrant-centos6 kernel: sd 2:0:0:0: Attached scsi generic sg1 type 0
+Aug 17 16:21:50 vagrant-centos6 kernel: piix4_smbus 0000:00:01.3: SMBus Host Controller at 0x700, revision 0
+Aug 17 16:21:50 vagrant-centos6 kernel: EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: 
+Aug 17 16:21:50 vagrant-centos6 kernel: Adding 1572860k swap on /dev/mapper/vg_vagrantcentos6-lv_swap.  Priority:-1 extents:1 across:1572860k 
+Aug 17 16:21:50 vagrant-centos6 kernel: NET: Registered protocol family 10
+Aug 17 16:21:50 vagrant-centos6 kernel: lo: Disabled Privacy Extensions
+Aug 17 16:21:50 vagrant-centos6 kernel: type=1305 audit(1629231710.297:3): audit_pid=969 old=0 auid=4294967295 ses=4294967295 res=1
+Aug 17 16:21:56 vagrant-centos6 rhnsd[1248]: Spacewalk Services Daemon starting up, check in interval 240 minutes.
+Aug 17 16:25:42 vagrant-centos6 kernel: lo: Disabled Privacy Extensions
+Aug 17 16:25:46 vagrant-centos6 dhclient[1575]: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4 (xid=0x793de583)
+Aug 17 16:25:48 vagrant-centos6 dhclient[1575]: DHCPOFFER from 10.110.0.1
+Aug 17 16:25:48 vagrant-centos6 dhclient[1575]: DHCPREQUEST on eth0 to 255.255.255.255 port 67 (xid=0x793de583)
+Aug 17 16:25:48 vagrant-centos6 dhclient[1575]: DHCPACK from 10.110.0.1 (xid=0x793de583)
+Aug 17 16:25:50 vagrant-centos6 NET[1628]: /sbin/dhclient-script : updated /etc/resolv.conf
+Aug 17 16:25:50 vagrant-centos6 dhclient[1575]: bound to 10.110.133.134 -- renewal in 19606 seconds.
+Aug 17 17:40:07 vagrant-centos6 init: tty (/dev/tty2) main process (1262) killed by TERM signal
+Aug 17 17:40:07 vagrant-centos6 init: tty (/dev/tty3) main process (1264) killed by TERM signal
+Aug 17 17:40:07 vagrant-centos6 init: tty (/dev/tty4) main process (1266) killed by TERM signal
+Aug 17 17:40:07 vagrant-centos6 init: tty (/dev/tty5) main process (1270) killed by TERM signal
+Aug 17 17:40:07 vagrant-centos6 init: tty (/dev/tty6) main process (1272) killed by TERM signal
+Aug 17 17:40:07 vagrant-centos6 rhnsd[1248]: Exiting
+Aug 17 17:40:09 vagrant-centos6 auditd[969]: The audit daemon is exiting.
+Aug 17 17:40:09 vagrant-centos6 kernel: type=1305 audit(1629236409.968:117): audit_pid=0 old=969 auid=4294967295 ses=4294967295 res=1
+Aug 17 17:40:10 vagrant-centos6 kernel: type=1305 audit(1629236410.068:118): audit_enabled=0 old=1 auid=4294967295 ses=4294967295 res=1
+Aug 17 17:40:10 vagrant-centos6 kernel: Kernel logging (proc) stopped.
+Aug 17 17:40:10 vagrant-centos6 rsyslogd: [origin software="rsyslogd" swVersion="5.8.10" x-pid="991" x-info="http://www.rsyslog.com"] exiting on signal 15.
+Aug 18 12:06:19 varant-ceos6v1 kernel: imklog 5.8.10, log source = /proc/kmsg started.
+Aug 18 12:06:19 varant-ceos6v1 rsyslogd: [origin software="rsyslogd" swVersion="5.8.10" x-pid="1010" x-info="http://www.rsyslog.com"] start
+Aug 18 12:06:19 varant-ceos6v1 kernel: Initializing cgroup subsys cpuset
+Aug 18 12:06:19 varant-ceos6v1 kernel: Initializing cgroup subsys cpu
+Aug 18 12:06:19 varant-ceos6v1 kernel: Linux version 2.6.32-754.14.2.el6.x86_64 (mockbuild@x86-01.bsys.centos.org) (gcc version 4.4.7 20120313 (Red Hat 4.4.7-23) (GCC) ) #1 SMP Tue May 14 19:35:42 UTC 2019
+Aug 18 12:06:19 varant-ceos6v1 kernel: Command line: ro root=/dev/mapper/vg_vagrantcentos6-lv_root rd_NO_LUKS  KEYBOARDTYPE=pc KEYTABLE=us LANG=en_US.UTF-8 rd_LVM_LV=vg_vagrantcentos6/lv_root rd_NO_MD rd_LVM_LV=vg_vagrantcentos6/lv_swap crashkernel=auto SYSFONT=latarcyrheb-sun16 rd_NO_DM rhgb quiet
+Aug 18 12:06:19 varant-ceos6v1 kernel: KERNEL supported cpus:
+Aug 18 12:06:19 varant-ceos6v1 kernel:  Intel GenuineIntel
+Aug 18 12:06:19 varant-ceos6v1 kernel:  AMD AuthenticAMD
+Aug 18 12:06:19 varant-ceos6v1 kernel:  Centaur CentaurHauls
+Aug 18 12:06:19 varant-ceos6v1 kernel: BIOS-provided physical RAM map:
+Aug 18 12:06:19 varant-ceos6v1 kernel: BIOS-e820: 0000000000000000 - 000000000009fc00 (usable)
+Aug 18 12:06:19 varant-ceos6v1 kernel: BIOS-e820: 000000000009fc00 - 00000000000a0000 (reserved)
+Aug 18 12:06:19 varant-ceos6v1 kernel: BIOS-e820: 00000000000f0000 - 0000000000100000 (reserved)
+Aug 18 12:06:19 varant-ceos6v1 kernel: BIOS-e820: 0000000000100000 - 000000007ffdc000 (usable)
+Aug 18 12:06:19 varant-ceos6v1 kernel: BIOS-e820: 000000007ffdc000 - 0000000080000000 (reserved)
+Aug 18 12:06:19 varant-ceos6v1 kernel: BIOS-e820: 00000000feffc000 - 00000000ff000000 (reserved)
+Aug 18 12:06:19 varant-ceos6v1 kernel: BIOS-e820: 00000000fffc0000 - 0000000100000000 (reserved)
+Aug 18 12:06:19 varant-ceos6v1 kernel: SMBIOS version 2.8 @ 0xF6060
+Aug 18 12:06:19 varant-ceos6v1 kernel: SMBIOS 2.8 present.
+Aug 18 12:06:19 varant-ceos6v1 kernel: Hypervisor detected: KVM
+Aug 18 12:06:19 varant-ceos6v1 kernel: last_pfn = 0x7ffdc max_arch_pfn = 0x400000000
+Aug 18 12:06:19 varant-ceos6v1 kernel: x86 PAT enabled: cpu 0, old 0x7040600070406, new 0x7010600070106
+Aug 18 12:06:19 varant-ceos6v1 kernel: init_memory_mapping: 0000000000000000-000000007ffdc000
+Aug 18 12:06:19 varant-ceos6v1 kernel: RAMDISK: 36e4f000 - 37fefca8
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: Deleted _OSI(Windows 2012)
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: Deleted _OSI(Windows 2013)
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: RSDP 00000000000f6030 00014 (v00 BOCHS )
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: RSDT 000000007ffe2850 00030 (v01 BOCHS  BXPCRSDT 00000001 BXPC 00000001)
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: FACP 000000007ffe251c 00074 (v01 BOCHS  BXPCFACP 00000001 BXPC 00000001)
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: DSDT 000000007ffe0040 024DC (v01 BOCHS  BXPCDSDT 00000001 BXPC 00000001)
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: FACS 000000007ffe0000 00040
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: APIC 000000007ffe2590 000F0 (v01 BOCHS  BXPCAPIC 00000001 BXPC 00000001)
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: SRAT 000000007ffe2680 001D0 (v01 BOCHS  BXPCSRAT 00000001 BXPC 00000001)
+Aug 18 12:06:19 varant-ceos6v1 kernel: Setting APIC routing to flat.
+Aug 18 12:06:19 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 0 -> Node 0
+Aug 18 12:06:19 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 1 -> Node 0
+Aug 18 12:06:19 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 2 -> Node 0
+Aug 18 12:06:19 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 3 -> Node 0
+Aug 18 12:06:19 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 4 -> Node 0
+Aug 18 12:06:19 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 5 -> Node 0
+Aug 18 12:06:19 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 6 -> Node 0
+Aug 18 12:06:19 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 7 -> Node 0
+Aug 18 12:06:19 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 8 -> Node 0
+Aug 18 12:06:19 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 9 -> Node 0
+Aug 18 12:06:19 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 10 -> Node 0
+Aug 18 12:06:19 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 11 -> Node 0
+Aug 18 12:06:19 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 12 -> Node 0
+Aug 18 12:06:19 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 13 -> Node 0
+Aug 18 12:06:19 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 14 -> Node 0
+Aug 18 12:06:19 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 15 -> Node 0
+Aug 18 12:06:19 varant-ceos6v1 kernel: SRAT: Node 0 PXM 0 0-a0000
+Aug 18 12:06:19 varant-ceos6v1 kernel: SRAT: Node 0 PXM 0 100000-80000000
+Aug 18 12:06:19 varant-ceos6v1 kernel: SRAT: Node 0 PXM 0 100000000-680000000
+Aug 18 12:06:19 varant-ceos6v1 kernel: SRAT: hot plug zone found 100000000 - 680000000
+Aug 18 12:06:19 varant-ceos6v1 kernel: Bootmem setup node 0 0000000000000000-000000007ffdc000
+Aug 18 12:06:19 varant-ceos6v1 kernel:  NODE_DATA [0000000000017040 - 000000000004b03f]
+Aug 18 12:06:19 varant-ceos6v1 kernel:  bootmap [000000000004c000 -  000000000005bfff] pages 10
+Aug 18 12:06:19 varant-ceos6v1 kernel: (8 early reservations) ==> bootmem [0000000000 - 007ffdc000]
+Aug 18 12:06:19 varant-ceos6v1 kernel:  #0 [0000000000 - 0000001000]   BIOS data page ==> [0000000000 - 0000001000]
+Aug 18 12:06:19 varant-ceos6v1 kernel:  #1 [0000006000 - 0000008000]       TRAMPOLINE ==> [0000006000 - 0000008000]
+Aug 18 12:06:19 varant-ceos6v1 kernel:  #2 [0001000000 - 0002052a64]    TEXT DATA BSS ==> [0001000000 - 0002052a64]
+Aug 18 12:06:19 varant-ceos6v1 kernel:  #3 [0036e4f000 - 0037fefca8]          RAMDISK ==> [0036e4f000 - 0037fefca8]
+Aug 18 12:06:19 varant-ceos6v1 kernel:  #4 [000009fc00 - 0000100000]    BIOS reserved ==> [000009fc00 - 0000100000]
+Aug 18 12:06:19 varant-ceos6v1 kernel:  #5 [0002053000 - 0002053101]              BRK ==> [0002053000 - 0002053101]
+Aug 18 12:06:19 varant-ceos6v1 kernel:  #6 [0000008000 - 000000a000]          PGTABLE ==> [0000008000 - 000000a000]
+Aug 18 12:06:19 varant-ceos6v1 kernel:  #7 [000000a000 - 0000017040]       MEMNODEMAP ==> [000000a000 - 0000017040]
+Aug 18 12:06:19 varant-ceos6v1 kernel: found SMP MP-table at [ffff8800000f6260] f6260
+Aug 18 12:06:19 varant-ceos6v1 kernel: Found 129MB of memory at 48MB for crashkernel auto 
+Aug 18 12:06:19 varant-ceos6v1 kernel: Reserving 129MB of memory at 48MB for crashkernel (System RAM: 2047MB)
+Aug 18 12:06:19 varant-ceos6v1 kernel: kvm-clock: Using msrs 4b564d01 and 4b564d00
+Aug 18 12:06:19 varant-ceos6v1 kernel: kvm-clock: cpu 0, msr 0:1c3db81, boot clock
+Aug 18 12:06:19 varant-ceos6v1 kernel: Zone PFN ranges:
+Aug 18 12:06:19 varant-ceos6v1 kernel:  DMA      0x00000001 -> 0x00001000
+Aug 18 12:06:19 varant-ceos6v1 kernel:  DMA32    0x00001000 -> 0x00100000
+Aug 18 12:06:19 varant-ceos6v1 kernel:  Normal   0x00100000 -> 0x00100000
+Aug 18 12:06:19 varant-ceos6v1 kernel: Movable zone start PFN for each node
+Aug 18 12:06:19 varant-ceos6v1 kernel: early_node_map[2] active PFN ranges
+Aug 18 12:06:19 varant-ceos6v1 kernel:    0: 0x00000001 -> 0x0000009f
+Aug 18 12:06:19 varant-ceos6v1 kernel:    0: 0x00000100 -> 0x0007ffdc
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: PM-Timer IO Port: 0x608
+Aug 18 12:06:19 varant-ceos6v1 kernel: Setting APIC routing to flat.
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] disabled)
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x02] lapic_id[0x02] disabled)
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x03] lapic_id[0x03] disabled)
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x04] lapic_id[0x04] disabled)
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x05] lapic_id[0x05] disabled)
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x06] lapic_id[0x06] disabled)
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x07] lapic_id[0x07] disabled)
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x08] lapic_id[0x08] disabled)
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x09] lapic_id[0x09] disabled)
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x0a] lapic_id[0x0a] disabled)
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x0b] lapic_id[0x0b] disabled)
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x0c] lapic_id[0x0c] disabled)
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x0d] lapic_id[0x0d] disabled)
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x0e] lapic_id[0x0e] disabled)
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x0f] lapic_id[0x0f] disabled)
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: IOAPIC (id[0x00] address[0xfec00000] gsi_base[0])
+Aug 18 12:06:19 varant-ceos6v1 kernel: IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+Aug 18 12:06:19 varant-ceos6v1 kernel: Using ACPI (MADT) for SMP configuration information
+Aug 18 12:06:19 varant-ceos6v1 kernel: SMP: Allowing 16 CPUs, 15 hotplug CPUs
+Aug 18 12:06:19 varant-ceos6v1 kernel: PM: Registered nosave memory: 000000000009f000 - 00000000000a0000
+Aug 18 12:06:19 varant-ceos6v1 kernel: PM: Registered nosave memory: 00000000000a0000 - 00000000000f0000
+Aug 18 12:06:19 varant-ceos6v1 kernel: PM: Registered nosave memory: 00000000000f0000 - 0000000000100000
+Aug 18 12:06:19 varant-ceos6v1 kernel: Allocating PCI resources starting at 80000000 (gap: 80000000:7effc000)
+Aug 18 12:06:19 varant-ceos6v1 kernel: Booting paravirtualized kernel on KVM
+Aug 18 12:06:19 varant-ceos6v1 kernel: NR_CPUS:4096 nr_cpumask_bits:16 nr_cpu_ids:16 nr_node_ids:1
+Aug 18 12:06:19 varant-ceos6v1 kernel: PERCPU: Embedded 33 pages/cpu @ffff88000c400000 s104088 r8192 d22888 u262144
+Aug 18 12:06:19 varant-ceos6v1 kernel: pcpu-alloc: s104088 r8192 d22888 u262144 alloc=1*2097152
+Aug 18 12:06:19 varant-ceos6v1 kernel: pcpu-alloc: [0] 00 01 02 03 04 05 06 07 [0] 08 09 10 11 12 13 14 15 
+Aug 18 12:06:19 varant-ceos6v1 kernel: kvm-clock: cpu 0, msr 0:c418b81, primary cpu clock
+Aug 18 12:06:19 varant-ceos6v1 kernel: kvm-stealtime: cpu 0, msr c412d00
+Aug 18 12:06:19 varant-ceos6v1 kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 516872
+Aug 18 12:06:19 varant-ceos6v1 kernel: Policy zone: DMA32
+Aug 18 12:06:19 varant-ceos6v1 kernel: Kernel command line: ro root=/dev/mapper/vg_vagrantcentos6-lv_root rd_NO_LUKS  KEYBOARDTYPE=pc KEYTABLE=us LANG=en_US.UTF-8 rd_LVM_LV=vg_vagrantcentos6/lv_root rd_NO_MD rd_LVM_LV=vg_vagrantcentos6/lv_swap crashkernel=129M@48M SYSFONT=latarcyrheb-sun16 rd_NO_DM rhgb quiet
+Aug 18 12:06:19 varant-ceos6v1 kernel: PID hash table entries: 4096 (order: 3, 32768 bytes)
+Aug 18 12:06:19 varant-ceos6v1 kernel: x86/fpu: xstate_offset[2]: 0240, xstate_sizes[2]: 0100
+Aug 18 12:06:19 varant-ceos6v1 kernel: xsave: enabled eager FPU xstate_bv 0x7, cntxt size 0x340
+Aug 18 12:06:19 varant-ceos6v1 kernel: Memory: 1898400k/2097008k available (5540k kernel code, 392k absent, 198216k reserved, 6889k data, 1348k init)
+Aug 18 12:06:19 varant-ceos6v1 kernel: Kernel/User page tables isolation: enabled
+Aug 18 12:06:19 varant-ceos6v1 kernel: Hierarchical RCU implementation.
+Aug 18 12:06:19 varant-ceos6v1 kernel: NR_IRQS:33024 nr_irqs:536
+Aug 18 12:06:19 varant-ceos6v1 kernel: Console: colour VGA+ 80x25
+Aug 18 12:06:19 varant-ceos6v1 kernel: console [tty0] enabled
+Aug 18 12:06:19 varant-ceos6v1 kernel: allocated 8388608 bytes of page_cgroup
+Aug 18 12:06:19 varant-ceos6v1 kernel: please try 'cgroup_disable=memory' option if you don't want memory cgroups
+Aug 18 12:06:19 varant-ceos6v1 kernel: Detected 1999.999 MHz processor.
+Aug 18 12:06:19 varant-ceos6v1 kernel: Calibrating delay loop (skipped) preset value.. 3999.99 BogoMIPS (lpj=1999999)
+Aug 18 12:06:19 varant-ceos6v1 kernel: pid_max: default: 32768 minimum: 301
+Aug 18 12:06:19 varant-ceos6v1 kernel: Security Framework initialized
+Aug 18 12:06:19 varant-ceos6v1 kernel: SELinux:  Initializing.
+Aug 18 12:06:19 varant-ceos6v1 kernel: Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+Aug 18 12:06:19 varant-ceos6v1 kernel: Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Aug 18 12:06:19 varant-ceos6v1 kernel: Mount-cache hash table entries: 256
+Aug 18 12:06:19 varant-ceos6v1 kernel: Initializing cgroup subsys ns
+Aug 18 12:06:19 varant-ceos6v1 kernel: Initializing cgroup subsys cpuacct
+Aug 18 12:06:19 varant-ceos6v1 kernel: Initializing cgroup subsys memory
+Aug 18 12:06:19 varant-ceos6v1 kernel: Initializing cgroup subsys devices
+Aug 18 12:06:19 varant-ceos6v1 kernel: Initializing cgroup subsys freezer
+Aug 18 12:06:19 varant-ceos6v1 kernel: Initializing cgroup subsys net_cls
+Aug 18 12:06:19 varant-ceos6v1 kernel: Initializing cgroup subsys blkio
+Aug 18 12:06:19 varant-ceos6v1 kernel: Initializing cgroup subsys perf_event
+Aug 18 12:06:19 varant-ceos6v1 kernel: Initializing cgroup subsys net_prio
+Aug 18 12:06:19 varant-ceos6v1 kernel: mce: CPU supports 10 MCE banks
+Aug 18 12:06:19 varant-ceos6v1 kernel: Speculative Store Bypass: Vulnerable
+Aug 18 12:06:19 varant-ceos6v1 kernel: MDS: Vulnerable: Clear CPU buffers attempted, no microcode
+Aug 18 12:06:19 varant-ceos6v1 kernel: FEATURE SPEC_CTRL Not Present
+Aug 18 12:06:19 varant-ceos6v1 kernel: FEATURE IBPB_SUPPORT Not Present
+Aug 18 12:06:19 varant-ceos6v1 kernel: Spectre V2 : Mitigation: Full retpoline
+Aug 18 12:06:19 varant-ceos6v1 kernel: alternatives: switching to unfair spinlock
+Aug 18 12:06:19 varant-ceos6v1 kernel: SMP alternatives: switching to UP code
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: Core revision 20090903
+Aug 18 12:06:19 varant-ceos6v1 kernel: ftrace: converting mcount calls to 0f 1f 44 00 00
+Aug 18 12:06:19 varant-ceos6v1 kernel: ftrace: allocating 22093 entries in 87 pages
+Aug 18 12:06:19 varant-ceos6v1 kernel: Enabling x2apic
+Aug 18 12:06:19 varant-ceos6v1 kernel: Enabled x2apic
+Aug 18 12:06:19 varant-ceos6v1 kernel: APIC routing finalized to physical x2apic.
+Aug 18 12:06:19 varant-ceos6v1 kernel: ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Aug 18 12:06:19 varant-ceos6v1 kernel: CPU0: Intel Xeon E312xx (Sandy Bridge) stepping 01
+Aug 18 12:06:19 varant-ceos6v1 kernel: Performance Events: unsupported p6 CPU model 42 no PMU driver, software events only.
+Aug 18 12:06:19 varant-ceos6v1 kernel: NMI watchdog disabled (cpu0): hardware events not enabled
+Aug 18 12:06:19 varant-ceos6v1 kernel: Brought up 1 CPUs
+Aug 18 12:06:19 varant-ceos6v1 kernel: Total of 1 processors activated (3999.99 BogoMIPS).
+Aug 18 12:06:19 varant-ceos6v1 kernel: devtmpfs: initialized
+Aug 18 12:06:19 varant-ceos6v1 kernel: regulator: core version 0.5
+Aug 18 12:06:19 varant-ceos6v1 kernel: NET: Registered protocol family 16
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: bus type pci registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: PCI: Using configuration type 1 for base access
+Aug 18 12:06:19 varant-ceos6v1 kernel: bio: create slab <bio-0> at 0
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: Interpreter enabled
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: (supports S0 S5)
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: Using IOAPIC for interrupt routing
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: No dock devices found.
+Aug 18 12:06:19 varant-ceos6v1 kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Aug 18 12:06:19 varant-ceos6v1 kernel: pci_root PNP0A03:00: host bridge window [io  0x0000-0x0cf7]
+Aug 18 12:06:19 varant-ceos6v1 kernel: pci_root PNP0A03:00: host bridge window [io  0x0d00-0xffff]
+Aug 18 12:06:19 varant-ceos6v1 kernel: pci_root PNP0A03:00: host bridge window [mem 0x000a0000-0x000bffff]
+Aug 18 12:06:19 varant-ceos6v1 kernel: pci_root PNP0A03:00: host bridge window [mem 0x80000000-0xfebfffff]
+Aug 18 12:06:19 varant-ceos6v1 kernel: pci_root PNP0A03:00: host bridge window [mem 0x680000000-0x6ffffffff]
+Aug 18 12:06:19 varant-ceos6v1 kernel: PCI host bridge to bus 0000:00
+Aug 18 12:06:19 varant-ceos6v1 kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7]
+Aug 18 12:06:19 varant-ceos6v1 kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xffff]
+Aug 18 12:06:19 varant-ceos6v1 kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff]
+Aug 18 12:06:19 varant-ceos6v1 kernel: pci_bus 0000:00: root bus resource [mem 0x80000000-0xfebfffff]
+Aug 18 12:06:19 varant-ceos6v1 kernel: pci_bus 0000:00: root bus resource [mem 0x680000000-0x6ffffffff]
+Aug 18 12:06:19 varant-ceos6v1 kernel: pci 0000:00:01.3: quirk: [io  0x0600-0x063f] claimed by PIIX4 ACPI
+Aug 18 12:06:19 varant-ceos6v1 kernel: pci 0000:00:01.3: quirk: [io  0x0700-0x070f] claimed by PIIX4 SMB
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 5 *10 11)
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 5 10 *11)
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: PCI Interrupt Link [LNKS] (IRQs *9)
+Aug 18 12:06:19 varant-ceos6v1 kernel: vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Aug 18 12:06:19 varant-ceos6v1 kernel: vgaarb: loaded
+Aug 18 12:06:19 varant-ceos6v1 kernel: vgaarb: bridge control possible 0000:00:02.0
+Aug 18 12:06:19 varant-ceos6v1 kernel: SCSI subsystem initialized
+Aug 18 12:06:19 varant-ceos6v1 kernel: usbcore: registered new interface driver usbfs
+Aug 18 12:06:19 varant-ceos6v1 kernel: usbcore: registered new interface driver hub
+Aug 18 12:06:19 varant-ceos6v1 kernel: usbcore: registered new device driver usb
+Aug 18 12:06:19 varant-ceos6v1 kernel: PCI: Using ACPI for IRQ routing
+Aug 18 12:06:19 varant-ceos6v1 kernel: NetLabel: Initializing
+Aug 18 12:06:19 varant-ceos6v1 kernel: NetLabel:  domain hash size = 128
+Aug 18 12:06:19 varant-ceos6v1 kernel: NetLabel:  protocols = UNLABELED CIPSOv4
+Aug 18 12:06:19 varant-ceos6v1 kernel: NetLabel:  unlabeled traffic allowed by default
+Aug 18 12:06:19 varant-ceos6v1 kernel: Switching to clocksource kvm-clock
+Aug 18 12:06:19 varant-ceos6v1 kernel: pnp: PnP ACPI init
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: bus type pnp registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: pnp: PnP ACPI: found 9 devices
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: ACPI bus type pnp unregistered
+Aug 18 12:06:19 varant-ceos6v1 kernel: NET: Registered protocol family 2
+Aug 18 12:06:19 varant-ceos6v1 kernel: IP route cache hash table entries: 65536 (order: 7, 524288 bytes)
+Aug 18 12:06:19 varant-ceos6v1 kernel: TCP established hash table entries: 262144 (order: 10, 4194304 bytes)
+Aug 18 12:06:19 varant-ceos6v1 kernel: TCP bind hash table entries: 65536 (order: 8, 1048576 bytes)
+Aug 18 12:06:19 varant-ceos6v1 kernel: TCP: Hash tables configured (established 262144 bind 65536)
+Aug 18 12:06:19 varant-ceos6v1 kernel: TCP reno registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: NET: Registered protocol family 1
+Aug 18 12:06:19 varant-ceos6v1 kernel: pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Aug 18 12:06:19 varant-ceos6v1 kernel: pci 0000:00:01.0: PIIX3: Enabling Passive Release
+Aug 18 12:06:19 varant-ceos6v1 kernel: pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: PCI Interrupt Link [LNKD] enabled at IRQ 11
+Aug 18 12:06:19 varant-ceos6v1 kernel: pci 0000:00:01.2: PCI INT D -> Link[LNKD] -> GSI 11 (level, high) -> IRQ 11
+Aug 18 12:06:19 varant-ceos6v1 kernel: pci 0000:00:01.2: PCI INT D disabled
+Aug 18 12:06:19 varant-ceos6v1 kernel: Trying to unpack rootfs image as initramfs...
+Aug 18 12:06:19 varant-ceos6v1 kernel: Freeing initrd memory: 18051k freed
+Aug 18 12:06:19 varant-ceos6v1 kernel: sha256_ssse3: Using AVX optimized SHA-256 implementation
+Aug 18 12:06:19 varant-ceos6v1 kernel: futex hash table entries: 4096 (order: 6, 262144 bytes)
+Aug 18 12:06:19 varant-ceos6v1 kernel: audit: initializing netlink socket (disabled)
+Aug 18 12:06:19 varant-ceos6v1 kernel: type=2000 audit(1629302758.748:1): initialized
+Aug 18 12:06:19 varant-ceos6v1 kernel: HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Aug 18 12:06:19 varant-ceos6v1 kernel: VFS: Disk quotas dquot_6.5.2
+Aug 18 12:06:19 varant-ceos6v1 kernel: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Aug 18 12:06:19 varant-ceos6v1 kernel: msgmni has been set to 3743
+Aug 18 12:06:19 varant-ceos6v1 kernel: ksign: Installing public key data
+Aug 18 12:06:19 varant-ceos6v1 kernel: Loading keyring
+Aug 18 12:06:19 varant-ceos6v1 kernel: - Added public key AB4F5DBAD265ED6E
+Aug 18 12:06:19 varant-ceos6v1 kernel: - User ID: CentOS (Kernel Module GPG key)
+Aug 18 12:06:19 varant-ceos6v1 kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 250)
+Aug 18 12:06:19 varant-ceos6v1 kernel: io scheduler noop registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: io scheduler anticipatory registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: io scheduler deadline registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: io scheduler cfq registered (default)
+Aug 18 12:06:19 varant-ceos6v1 kernel: pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Aug 18 12:06:19 varant-ceos6v1 kernel: pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Aug 18 12:06:19 varant-ceos6v1 kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Aug 18 12:06:19 varant-ceos6v1 kernel: acpiphp: Slot [3] registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: acpiphp: Slot [4] registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: acpiphp: Slot [5] registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: acpiphp: Slot [6] registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: acpiphp: Slot [7] registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: acpiphp: Slot [8] registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: acpiphp: Slot [9] registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: acpiphp: Slot [10] registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: acpiphp: Slot [11] registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: acpiphp: Slot [12] registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: acpiphp: Slot [13] registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: acpiphp: Slot [14] registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: acpiphp: Slot [15] registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: acpiphp: Slot [16] registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: acpiphp: Slot [17] registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: acpiphp: Slot [18] registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: acpiphp: Slot [19] registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: acpiphp: Slot [20] registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: acpiphp: Slot [21] registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: acpiphp: Slot [22] registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: acpiphp: Slot [23] registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: acpiphp: Slot [24] registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: acpiphp: Slot [25] registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: acpiphp: Slot [26] registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: acpiphp: Slot [27] registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: acpiphp: Slot [28] registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: acpiphp: Slot [29] registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: acpiphp: Slot [30] registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: acpiphp: Slot [31] registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: Power Button [PWRF]
+Aug 18 12:06:19 varant-ceos6v1 kernel: [Firmware Bug]: No valid trip found
+Aug 18 12:06:19 varant-ceos6v1 kernel: GHES: HEST is not enabled!
+Aug 18 12:06:19 varant-ceos6v1 kernel: Non-volatile memory driver v1.3
+Aug 18 12:06:19 varant-ceos6v1 kernel: Linux agpgart interface v0.103
+Aug 18 12:06:19 varant-ceos6v1 kernel: crash memory driver: version 1.1
+Aug 18 12:06:19 varant-ceos6v1 kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Aug 18 12:06:19 varant-ceos6v1 kernel: brd: module loaded
+Aug 18 12:06:19 varant-ceos6v1 kernel: loop: module loaded
+Aug 18 12:06:19 varant-ceos6v1 kernel: input: Macintosh mouse button emulation as /devices/virtual/input/input1
+Aug 18 12:06:19 varant-ceos6v1 kernel: Fixed MDIO Bus: probed
+Aug 18 12:06:19 varant-ceos6v1 kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Aug 18 12:06:19 varant-ceos6v1 kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Aug 18 12:06:19 varant-ceos6v1 kernel: uhci_hcd: USB Universal Host Controller Interface driver
+Aug 18 12:06:19 varant-ceos6v1 kernel: uhci_hcd 0000:00:01.2: PCI INT D -> Link[LNKD] -> GSI 11 (level, high) -> IRQ 11
+Aug 18 12:06:19 varant-ceos6v1 kernel: uhci_hcd 0000:00:01.2: UHCI Host Controller
+Aug 18 12:06:19 varant-ceos6v1 kernel: uhci_hcd 0000:00:01.2: new USB bus registered, assigned bus number 1
+Aug 18 12:06:19 varant-ceos6v1 kernel: uhci_hcd 0000:00:01.2: irq 11, io base 0x0000c0c0
+Aug 18 12:06:19 varant-ceos6v1 kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+Aug 18 12:06:19 varant-ceos6v1 kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Aug 18 12:06:19 varant-ceos6v1 kernel: usb usb1: Product: UHCI Host Controller
+Aug 18 12:06:19 varant-ceos6v1 kernel: usb usb1: Manufacturer: Linux 2.6.32-754.14.2.el6.x86_64 uhci_hcd
+Aug 18 12:06:19 varant-ceos6v1 kernel: usb usb1: SerialNumber: 0000:00:01.2
+Aug 18 12:06:19 varant-ceos6v1 kernel: usb usb1: configuration #1 chosen from 1 choice
+Aug 18 12:06:19 varant-ceos6v1 kernel: hub 1-0:1.0: USB hub found
+Aug 18 12:06:19 varant-ceos6v1 kernel: hub 1-0:1.0: 2 ports detected
+Aug 18 12:06:19 varant-ceos6v1 kernel: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+Aug 18 12:06:19 varant-ceos6v1 kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+Aug 18 12:06:19 varant-ceos6v1 kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+Aug 18 12:06:19 varant-ceos6v1 kernel: mice: PS/2 mouse device common for all mice
+Aug 18 12:06:19 varant-ceos6v1 kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Aug 18 12:06:19 varant-ceos6v1 kernel: rtc_cmos 00:01: RTC can wake from S4
+Aug 18 12:06:19 varant-ceos6v1 kernel: rtc_cmos 00:01: rtc core: registered rtc_cmos as rtc0
+Aug 18 12:06:19 varant-ceos6v1 kernel: rtc0: alarms up to one day, y3k, 114 bytes nvram
+Aug 18 12:06:19 varant-ceos6v1 kernel: cpuidle: using governor ladder
+Aug 18 12:06:19 varant-ceos6v1 kernel: cpuidle: using governor menu
+Aug 18 12:06:19 varant-ceos6v1 kernel: EFI Variables Facility v0.08 2004-May-17
+Aug 18 12:06:19 varant-ceos6v1 kernel: usbcore: registered new interface driver hiddev
+Aug 18 12:06:19 varant-ceos6v1 kernel: usbcore: registered new interface driver usbhid
+Aug 18 12:06:19 varant-ceos6v1 kernel: usbhid: v2.6:USB HID core driver
+Aug 18 12:06:19 varant-ceos6v1 kernel: GRE over IPv4 demultiplexor driver
+Aug 18 12:06:19 varant-ceos6v1 kernel: TCP cubic registered
+Aug 18 12:06:19 varant-ceos6v1 kernel: Initializing XFRM netlink socket
+Aug 18 12:06:19 varant-ceos6v1 kernel: NET: Registered protocol family 17
+Aug 18 12:06:19 varant-ceos6v1 kernel: registered taskstats version 1
+Aug 18 12:06:19 varant-ceos6v1 kernel: rtc_cmos 00:01: setting system clock to 2021-08-18 16:05:57 UTC (1629302757)
+Aug 18 12:06:19 varant-ceos6v1 kernel: Initalizing network drop monitor service
+Aug 18 12:06:19 varant-ceos6v1 kernel: Freeing unused kernel memory: 1348k freed
+Aug 18 12:06:19 varant-ceos6v1 kernel: Write protecting the kernel read-only data: 10240k
+Aug 18 12:06:19 varant-ceos6v1 kernel: Freeing unused kernel memory: 584k freed
+Aug 18 12:06:19 varant-ceos6v1 kernel: Freeing unused kernel memory: 1524k freed
+Aug 18 12:06:19 varant-ceos6v1 kernel: dracut: dracut-004-411.el6
+Aug 18 12:06:19 varant-ceos6v1 kernel: dracut: rd_NO_LUKS: removing cryptoluks activation
+Aug 18 12:06:19 varant-ceos6v1 kernel: device-mapper: uevent: version 1.0.3
+Aug 18 12:06:19 varant-ceos6v1 kernel: device-mapper: ioctl: 4.33.1-ioctl (2015-8-18) initialised: dm-devel@redhat.com
+Aug 18 12:06:19 varant-ceos6v1 kernel: udev: starting version 147
+Aug 18 12:06:19 varant-ceos6v1 kernel: dracut: Starting plymouth daemon
+Aug 18 12:06:19 varant-ceos6v1 kernel: dracut: rd_NO_MD: removing MD RAID activation
+Aug 18 12:06:19 varant-ceos6v1 kernel: scsi0 : ata_piix
+Aug 18 12:06:19 varant-ceos6v1 kernel: scsi1 : ata_piix
+Aug 18 12:06:19 varant-ceos6v1 kernel: ata1: PATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xc120 irq 14
+Aug 18 12:06:19 varant-ceos6v1 kernel: ata2: PATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xc128 irq 15
+Aug 18 12:06:19 varant-ceos6v1 kernel: input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input3
+Aug 18 12:06:19 varant-ceos6v1 kernel: ata2.00: ATAPI: QEMU DVD-ROM, 2.5+, max UDMA/100
+Aug 18 12:06:19 varant-ceos6v1 kernel: ata2.00: configured for MWDMA2
+Aug 18 12:06:19 varant-ceos6v1 kernel: scsi 1:0:0:0: CD-ROM            QEMU     QEMU DVD-ROM     2.5+ PQ: 0 ANSI: 5
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: PCI Interrupt Link [LNKC] enabled at IRQ 10
+Aug 18 12:06:19 varant-ceos6v1 kernel: virtio-pci 0000:00:03.0: PCI INT A -> Link[LNKC] -> GSI 10 (level, high) -> IRQ 10
+Aug 18 12:06:19 varant-ceos6v1 kernel: virtio-pci 0000:00:04.0: PCI INT A -> Link[LNKD] -> GSI 11 (level, high) -> IRQ 11
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: PCI Interrupt Link [LNKA] enabled at IRQ 10
+Aug 18 12:06:19 varant-ceos6v1 kernel: virtio-pci 0000:00:05.0: PCI INT A -> Link[LNKA] -> GSI 10 (level, high) -> IRQ 10
+Aug 18 12:06:19 varant-ceos6v1 kernel: ACPI: PCI Interrupt Link [LNKB] enabled at IRQ 11
+Aug 18 12:06:19 varant-ceos6v1 kernel: virtio-pci 0000:00:06.0: PCI INT A -> Link[LNKB] -> GSI 11 (level, high) -> IRQ 11
+Aug 18 12:06:19 varant-ceos6v1 kernel: sr0: scsi3-mmc drive: 4x/4x cd/rw xa/form2 tray
+Aug 18 12:06:19 varant-ceos6v1 kernel: Uniform CD-ROM driver Revision: 3.20
+Aug 18 12:06:19 varant-ceos6v1 kernel: scsi2 : Virtio SCSI HBA
+Aug 18 12:06:19 varant-ceos6v1 kernel: scsi 2:0:0:0: Direct-Access     QEMU     QEMU HARDDISK    2.5+ PQ: 0 ANSI: 5
+Aug 18 12:06:19 varant-ceos6v1 kernel: sd 2:0:0:0: [sda] 31457280 512-byte logical blocks: (16.1 GB/15.0 GiB)
+Aug 18 12:06:19 varant-ceos6v1 kernel: sd 2:0:0:0: [sda] Write Protect is off
+Aug 18 12:06:19 varant-ceos6v1 kernel: sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Aug 18 12:06:19 varant-ceos6v1 kernel: sda: sda1 sda2
+Aug 18 12:06:19 varant-ceos6v1 kernel: sd 2:0:0:0: [sda] Attached SCSI disk
+Aug 18 12:06:19 varant-ceos6v1 kernel: dracut: Scanning devices sda2  for LVM logical volumes vg_vagrantcentos6/lv_root vg_vagrantcentos6/lv_swap 
+Aug 18 12:06:19 varant-ceos6v1 kernel: dracut: inactive '/dev/vg_vagrantcentos6/lv_root' [13.01 GiB] inherit
+Aug 18 12:06:19 varant-ceos6v1 kernel: dracut: inactive '/dev/vg_vagrantcentos6/lv_swap' [1.50 GiB] inherit
+Aug 18 12:06:19 varant-ceos6v1 kernel: EXT4-fs (dm-0): mounted filesystem with ordered data mode. Opts: 
+Aug 18 12:06:19 varant-ceos6v1 kernel: dracut: Mounted root filesystem /dev/mapper/vg_vagrantcentos6-lv_root
+Aug 18 12:06:19 varant-ceos6v1 kernel: SELinux:  Disabled at runtime.
+Aug 18 12:06:19 varant-ceos6v1 kernel: type=1404 audit(1629302760.701:2): selinux=0 auid=4294967295 ses=4294967295
+Aug 18 12:06:19 varant-ceos6v1 kernel: dracut: 
+Aug 18 12:06:19 varant-ceos6v1 kernel: dracut: Switching root
+Aug 18 12:06:19 varant-ceos6v1 kernel: udev: starting version 147
+Aug 18 12:06:19 varant-ceos6v1 kernel: sr 1:0:0:0: Attached scsi generic sg0 type 5
+Aug 18 12:06:19 varant-ceos6v1 kernel: sd 2:0:0:0: Attached scsi generic sg1 type 0
+Aug 18 12:06:19 varant-ceos6v1 kernel: piix4_smbus 0000:00:01.3: SMBus Host Controller at 0x700, revision 0
+Aug 18 12:06:19 varant-ceos6v1 kernel: EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: 
+Aug 18 12:06:19 varant-ceos6v1 kernel: Adding 1572860k swap on /dev/mapper/vg_vagrantcentos6-lv_swap.  Priority:-1 extents:1 across:1572860k 
+Aug 18 12:06:19 varant-ceos6v1 kernel: NET: Registered protocol family 10
+Aug 18 12:06:19 varant-ceos6v1 kernel: lo: Disabled Privacy Extensions
+Aug 18 12:06:19 varant-ceos6v1 kernel: type=1305 audit(1629302778.315:3): audit_pid=988 old=0 auid=4294967295 ses=4294967295 res=1
+Aug 18 12:06:19 varant-ceos6v1 udevd[441]: can not read '/etc/udev/rules.d/70-persistent-net.rules'
+Aug 18 12:06:27 varant-ceos6v1 rhnsd[1271]: Spacewalk Services Daemon starting up, check in interval 240 minutes.
+Aug 18 12:11:21 varant-ceos6v1 kernel: lo: Disabled Privacy Extensions
+Aug 18 12:11:26 varant-ceos6v1 dhclient[1619]: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8 (xid=0x357ed9a3)
+Aug 18 12:11:28 varant-ceos6v1 dhclient[1619]: DHCPOFFER from 10.110.0.1
+Aug 18 12:11:28 varant-ceos6v1 dhclient[1619]: DHCPREQUEST on eth0 to 255.255.255.255 port 67 (xid=0x357ed9a3)
+Aug 18 12:11:28 varant-ceos6v1 dhclient[1619]: DHCPACK from 10.110.0.1 (xid=0x357ed9a3)
+Aug 18 12:11:30 varant-ceos6v1 NET[1675]: /sbin/dhclient-script : updated /etc/resolv.conf
+Aug 18 12:11:30 varant-ceos6v1 dhclient[1619]: bound to 10.110.133.134 -- renewal in 18860 seconds.
+Aug 18 12:11:45 varant-ceos6v1 init: tty (/dev/tty2) main process (1284) killed by TERM signal
+Aug 18 12:11:45 varant-ceos6v1 init: tty (/dev/tty3) main process (1286) killed by TERM signal
+Aug 18 12:11:45 varant-ceos6v1 init: tty (/dev/tty4) main process (1288) killed by TERM signal
+Aug 18 12:11:45 varant-ceos6v1 init: tty (/dev/tty5) main process (1290) killed by TERM signal
+Aug 18 12:11:45 varant-ceos6v1 init: tty (/dev/tty6) main process (1292) killed by TERM signal
+Aug 18 12:11:45 varant-ceos6v1 rhnsd[1271]: Exiting
+Aug 18 12:11:47 varant-ceos6v1 auditd[988]: The audit daemon is exiting.
+Aug 18 12:11:47 varant-ceos6v1 kernel: type=1305 audit(1629303107.740:31): audit_pid=0 old=988 auid=4294967295 ses=4294967295 res=1
+Aug 18 12:11:47 varant-ceos6v1 kernel: type=1305 audit(1629303107.842:32): audit_enabled=0 old=1 auid=4294967295 ses=4294967295 res=1
+Aug 18 12:11:47 varant-ceos6v1 kernel: Kernel logging (proc) stopped.
+Aug 18 12:11:47 varant-ceos6v1 rsyslogd: [origin software="rsyslogd" swVersion="5.8.10" x-pid="1010" x-info="http://www.rsyslog.com"] exiting on signal 15.
+Aug 18 12:12:10 varant-ceos6v1 kernel: imklog 5.8.10, log source = /proc/kmsg started.
+Aug 18 12:12:10 varant-ceos6v1 rsyslogd: [origin software="rsyslogd" swVersion="5.8.10" x-pid="1091" x-info="http://www.rsyslog.com"] start
+Aug 18 12:12:10 varant-ceos6v1 kernel: Initializing cgroup subsys cpuset
+Aug 18 12:12:10 varant-ceos6v1 kernel: Initializing cgroup subsys cpu
+Aug 18 12:12:10 varant-ceos6v1 kernel: Linux version 2.6.32-754.14.2.el6.x86_64 (mockbuild@x86-01.bsys.centos.org) (gcc version 4.4.7 20120313 (Red Hat 4.4.7-23) (GCC) ) #1 SMP Tue May 14 19:35:42 UTC 2019
+Aug 18 12:12:10 varant-ceos6v1 kernel: Command line: ro root=/dev/mapper/vg_vagrantcentos6-lv_root rd_NO_LUKS  KEYBOARDTYPE=pc KEYTABLE=us LANG=en_US.UTF-8 rd_LVM_LV=vg_vagrantcentos6/lv_root rd_NO_MD rd_LVM_LV=vg_vagrantcentos6/lv_swap crashkernel=auto SYSFONT=latarcyrheb-sun16 rd_NO_DM rhgb quiet
+Aug 18 12:12:10 varant-ceos6v1 kernel: KERNEL supported cpus:
+Aug 18 12:12:10 varant-ceos6v1 kernel:  Intel GenuineIntel
+Aug 18 12:12:10 varant-ceos6v1 kernel:  AMD AuthenticAMD
+Aug 18 12:12:10 varant-ceos6v1 kernel:  Centaur CentaurHauls
+Aug 18 12:12:10 varant-ceos6v1 kernel: BIOS-provided physical RAM map:
+Aug 18 12:12:10 varant-ceos6v1 kernel: BIOS-e820: 0000000000000000 - 000000000009fc00 (usable)
+Aug 18 12:12:10 varant-ceos6v1 kernel: BIOS-e820: 000000000009fc00 - 00000000000a0000 (reserved)
+Aug 18 12:12:10 varant-ceos6v1 kernel: BIOS-e820: 00000000000f0000 - 0000000000100000 (reserved)
+Aug 18 12:12:10 varant-ceos6v1 kernel: BIOS-e820: 0000000000100000 - 000000007ffdc000 (usable)
+Aug 18 12:12:10 varant-ceos6v1 kernel: BIOS-e820: 000000007ffdc000 - 0000000080000000 (reserved)
+Aug 18 12:12:10 varant-ceos6v1 kernel: BIOS-e820: 00000000feffc000 - 00000000ff000000 (reserved)
+Aug 18 12:12:10 varant-ceos6v1 kernel: BIOS-e820: 00000000fffc0000 - 0000000100000000 (reserved)
+Aug 18 12:12:10 varant-ceos6v1 kernel: SMBIOS version 2.8 @ 0xF6060
+Aug 18 12:12:10 varant-ceos6v1 kernel: SMBIOS 2.8 present.
+Aug 18 12:12:10 varant-ceos6v1 kernel: Hypervisor detected: KVM
+Aug 18 12:12:10 varant-ceos6v1 kernel: last_pfn = 0x7ffdc max_arch_pfn = 0x400000000
+Aug 18 12:12:10 varant-ceos6v1 kernel: x86 PAT enabled: cpu 0, old 0x7040600070406, new 0x7010600070106
+Aug 18 12:12:10 varant-ceos6v1 kernel: init_memory_mapping: 0000000000000000-000000007ffdc000
+Aug 18 12:12:10 varant-ceos6v1 kernel: RAMDISK: 36e4f000 - 37fefca8
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: Deleted _OSI(Windows 2012)
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: Deleted _OSI(Windows 2013)
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: RSDP 00000000000f6030 00014 (v00 BOCHS )
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: RSDT 000000007ffe2850 00030 (v01 BOCHS  BXPCRSDT 00000001 BXPC 00000001)
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: FACP 000000007ffe251c 00074 (v01 BOCHS  BXPCFACP 00000001 BXPC 00000001)
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: DSDT 000000007ffe0040 024DC (v01 BOCHS  BXPCDSDT 00000001 BXPC 00000001)
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: FACS 000000007ffe0000 00040
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: APIC 000000007ffe2590 000F0 (v01 BOCHS  BXPCAPIC 00000001 BXPC 00000001)
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: SRAT 000000007ffe2680 001D0 (v01 BOCHS  BXPCSRAT 00000001 BXPC 00000001)
+Aug 18 12:12:10 varant-ceos6v1 kernel: Setting APIC routing to flat.
+Aug 18 12:12:10 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 0 -> Node 0
+Aug 18 12:12:10 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 1 -> Node 0
+Aug 18 12:12:10 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 2 -> Node 0
+Aug 18 12:12:10 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 3 -> Node 0
+Aug 18 12:12:10 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 4 -> Node 0
+Aug 18 12:12:10 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 5 -> Node 0
+Aug 18 12:12:10 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 6 -> Node 0
+Aug 18 12:12:10 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 7 -> Node 0
+Aug 18 12:12:10 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 8 -> Node 0
+Aug 18 12:12:10 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 9 -> Node 0
+Aug 18 12:12:10 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 10 -> Node 0
+Aug 18 12:12:10 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 11 -> Node 0
+Aug 18 12:12:10 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 12 -> Node 0
+Aug 18 12:12:10 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 13 -> Node 0
+Aug 18 12:12:10 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 14 -> Node 0
+Aug 18 12:12:10 varant-ceos6v1 kernel: SRAT: PXM 0 -> APIC 15 -> Node 0
+Aug 18 12:12:10 varant-ceos6v1 kernel: SRAT: Node 0 PXM 0 0-a0000
+Aug 18 12:12:10 varant-ceos6v1 kernel: SRAT: Node 0 PXM 0 100000-80000000
+Aug 18 12:12:10 varant-ceos6v1 kernel: SRAT: Node 0 PXM 0 100000000-680000000
+Aug 18 12:12:10 varant-ceos6v1 kernel: SRAT: hot plug zone found 100000000 - 680000000
+Aug 18 12:12:10 varant-ceos6v1 kernel: Bootmem setup node 0 0000000000000000-000000007ffdc000
+Aug 18 12:12:10 varant-ceos6v1 kernel:  NODE_DATA [0000000000017040 - 000000000004b03f]
+Aug 18 12:12:10 varant-ceos6v1 kernel:  bootmap [000000000004c000 -  000000000005bfff] pages 10
+Aug 18 12:12:10 varant-ceos6v1 kernel: (8 early reservations) ==> bootmem [0000000000 - 007ffdc000]
+Aug 18 12:12:10 varant-ceos6v1 kernel:  #0 [0000000000 - 0000001000]   BIOS data page ==> [0000000000 - 0000001000]
+Aug 18 12:12:10 varant-ceos6v1 kernel:  #1 [0000006000 - 0000008000]       TRAMPOLINE ==> [0000006000 - 0000008000]
+Aug 18 12:12:10 varant-ceos6v1 kernel:  #2 [0001000000 - 0002052a64]    TEXT DATA BSS ==> [0001000000 - 0002052a64]
+Aug 18 12:12:10 varant-ceos6v1 kernel:  #3 [0036e4f000 - 0037fefca8]          RAMDISK ==> [0036e4f000 - 0037fefca8]
+Aug 18 12:12:10 varant-ceos6v1 kernel:  #4 [000009fc00 - 0000100000]    BIOS reserved ==> [000009fc00 - 0000100000]
+Aug 18 12:12:10 varant-ceos6v1 kernel:  #5 [0002053000 - 0002053101]              BRK ==> [0002053000 - 0002053101]
+Aug 18 12:12:10 varant-ceos6v1 kernel:  #6 [0000008000 - 000000a000]          PGTABLE ==> [0000008000 - 000000a000]
+Aug 18 12:12:10 varant-ceos6v1 kernel:  #7 [000000a000 - 0000017040]       MEMNODEMAP ==> [000000a000 - 0000017040]
+Aug 18 12:12:10 varant-ceos6v1 kernel: found SMP MP-table at [ffff8800000f6260] f6260
+Aug 18 12:12:10 varant-ceos6v1 kernel: Found 129MB of memory at 48MB for crashkernel auto 
+Aug 18 12:12:10 varant-ceos6v1 kernel: Reserving 129MB of memory at 48MB for crashkernel (System RAM: 2047MB)
+Aug 18 12:12:10 varant-ceos6v1 kernel: kvm-clock: Using msrs 4b564d01 and 4b564d00
+Aug 18 12:12:10 varant-ceos6v1 kernel: kvm-clock: cpu 0, msr 0:1c3db81, boot clock
+Aug 18 12:12:10 varant-ceos6v1 kernel: Zone PFN ranges:
+Aug 18 12:12:10 varant-ceos6v1 kernel:  DMA      0x00000001 -> 0x00001000
+Aug 18 12:12:10 varant-ceos6v1 kernel:  DMA32    0x00001000 -> 0x00100000
+Aug 18 12:12:10 varant-ceos6v1 kernel:  Normal   0x00100000 -> 0x00100000
+Aug 18 12:12:10 varant-ceos6v1 kernel: Movable zone start PFN for each node
+Aug 18 12:12:10 varant-ceos6v1 kernel: early_node_map[2] active PFN ranges
+Aug 18 12:12:10 varant-ceos6v1 kernel:    0: 0x00000001 -> 0x0000009f
+Aug 18 12:12:10 varant-ceos6v1 kernel:    0: 0x00000100 -> 0x0007ffdc
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: PM-Timer IO Port: 0x608
+Aug 18 12:12:10 varant-ceos6v1 kernel: Setting APIC routing to flat.
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] disabled)
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x02] lapic_id[0x02] disabled)
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x03] lapic_id[0x03] disabled)
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x04] lapic_id[0x04] disabled)
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x05] lapic_id[0x05] disabled)
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x06] lapic_id[0x06] disabled)
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x07] lapic_id[0x07] disabled)
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x08] lapic_id[0x08] disabled)
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x09] lapic_id[0x09] disabled)
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x0a] lapic_id[0x0a] disabled)
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x0b] lapic_id[0x0b] disabled)
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x0c] lapic_id[0x0c] disabled)
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x0d] lapic_id[0x0d] disabled)
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x0e] lapic_id[0x0e] disabled)
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: LAPIC (acpi_id[0x0f] lapic_id[0x0f] disabled)
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: IOAPIC (id[0x00] address[0xfec00000] gsi_base[0])
+Aug 18 12:12:10 varant-ceos6v1 kernel: IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+Aug 18 12:12:10 varant-ceos6v1 kernel: Using ACPI (MADT) for SMP configuration information
+Aug 18 12:12:10 varant-ceos6v1 kernel: SMP: Allowing 16 CPUs, 15 hotplug CPUs
+Aug 18 12:12:10 varant-ceos6v1 kernel: PM: Registered nosave memory: 000000000009f000 - 00000000000a0000
+Aug 18 12:12:10 varant-ceos6v1 kernel: PM: Registered nosave memory: 00000000000a0000 - 00000000000f0000
+Aug 18 12:12:10 varant-ceos6v1 kernel: PM: Registered nosave memory: 00000000000f0000 - 0000000000100000
+Aug 18 12:12:10 varant-ceos6v1 kernel: Allocating PCI resources starting at 80000000 (gap: 80000000:7effc000)
+Aug 18 12:12:10 varant-ceos6v1 kernel: Booting paravirtualized kernel on KVM
+Aug 18 12:12:10 varant-ceos6v1 kernel: NR_CPUS:4096 nr_cpumask_bits:16 nr_cpu_ids:16 nr_node_ids:1
+Aug 18 12:12:10 varant-ceos6v1 kernel: PERCPU: Embedded 33 pages/cpu @ffff88000c400000 s104088 r8192 d22888 u262144
+Aug 18 12:12:10 varant-ceos6v1 kernel: pcpu-alloc: s104088 r8192 d22888 u262144 alloc=1*2097152
+Aug 18 12:12:10 varant-ceos6v1 kernel: pcpu-alloc: [0] 00 01 02 03 04 05 06 07 [0] 08 09 10 11 12 13 14 15 
+Aug 18 12:12:10 varant-ceos6v1 kernel: kvm-clock: cpu 0, msr 0:c418b81, primary cpu clock
+Aug 18 12:12:10 varant-ceos6v1 kernel: kvm-stealtime: cpu 0, msr c412d00
+Aug 18 12:12:10 varant-ceos6v1 kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 516872
+Aug 18 12:12:10 varant-ceos6v1 kernel: Policy zone: DMA32
+Aug 18 12:12:10 varant-ceos6v1 kernel: Kernel command line: ro root=/dev/mapper/vg_vagrantcentos6-lv_root rd_NO_LUKS  KEYBOARDTYPE=pc KEYTABLE=us LANG=en_US.UTF-8 rd_LVM_LV=vg_vagrantcentos6/lv_root rd_NO_MD rd_LVM_LV=vg_vagrantcentos6/lv_swap crashkernel=129M@48M SYSFONT=latarcyrheb-sun16 rd_NO_DM rhgb quiet
+Aug 18 12:12:10 varant-ceos6v1 kernel: PID hash table entries: 4096 (order: 3, 32768 bytes)
+Aug 18 12:12:10 varant-ceos6v1 kernel: x86/fpu: xstate_offset[2]: 0240, xstate_sizes[2]: 0100
+Aug 18 12:12:10 varant-ceos6v1 kernel: xsave: enabled eager FPU xstate_bv 0x7, cntxt size 0x340
+Aug 18 12:12:10 varant-ceos6v1 kernel: Memory: 1898400k/2097008k available (5540k kernel code, 392k absent, 198216k reserved, 6889k data, 1348k init)
+Aug 18 12:12:10 varant-ceos6v1 kernel: Kernel/User page tables isolation: enabled
+Aug 18 12:12:10 varant-ceos6v1 kernel: Hierarchical RCU implementation.
+Aug 18 12:12:10 varant-ceos6v1 kernel: NR_IRQS:33024 nr_irqs:536
+Aug 18 12:12:10 varant-ceos6v1 kernel: Console: colour VGA+ 80x25
+Aug 18 12:12:10 varant-ceos6v1 kernel: console [tty0] enabled
+Aug 18 12:12:10 varant-ceos6v1 kernel: allocated 8388608 bytes of page_cgroup
+Aug 18 12:12:10 varant-ceos6v1 kernel: please try 'cgroup_disable=memory' option if you don't want memory cgroups
+Aug 18 12:12:10 varant-ceos6v1 kernel: Detected 1999.999 MHz processor.
+Aug 18 12:12:10 varant-ceos6v1 kernel: Calibrating delay loop (skipped) preset value.. 3999.99 BogoMIPS (lpj=1999999)
+Aug 18 12:12:10 varant-ceos6v1 kernel: pid_max: default: 32768 minimum: 301
+Aug 18 12:12:10 varant-ceos6v1 kernel: Security Framework initialized
+Aug 18 12:12:10 varant-ceos6v1 kernel: SELinux:  Initializing.
+Aug 18 12:12:10 varant-ceos6v1 kernel: Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+Aug 18 12:12:10 varant-ceos6v1 kernel: Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Aug 18 12:12:10 varant-ceos6v1 kernel: Mount-cache hash table entries: 256
+Aug 18 12:12:10 varant-ceos6v1 kernel: Initializing cgroup subsys ns
+Aug 18 12:12:10 varant-ceos6v1 kernel: Initializing cgroup subsys cpuacct
+Aug 18 12:12:10 varant-ceos6v1 kernel: Initializing cgroup subsys memory
+Aug 18 12:12:10 varant-ceos6v1 kernel: Initializing cgroup subsys devices
+Aug 18 12:12:10 varant-ceos6v1 kernel: Initializing cgroup subsys freezer
+Aug 18 12:12:10 varant-ceos6v1 kernel: Initializing cgroup subsys net_cls
+Aug 18 12:12:10 varant-ceos6v1 kernel: Initializing cgroup subsys blkio
+Aug 18 12:12:10 varant-ceos6v1 kernel: Initializing cgroup subsys perf_event
+Aug 18 12:12:10 varant-ceos6v1 kernel: Initializing cgroup subsys net_prio
+Aug 18 12:12:10 varant-ceos6v1 kernel: mce: CPU supports 10 MCE banks
+Aug 18 12:12:10 varant-ceos6v1 kernel: Speculative Store Bypass: Vulnerable
+Aug 18 12:12:10 varant-ceos6v1 kernel: MDS: Vulnerable: Clear CPU buffers attempted, no microcode
+Aug 18 12:12:10 varant-ceos6v1 kernel: FEATURE SPEC_CTRL Not Present
+Aug 18 12:12:10 varant-ceos6v1 kernel: FEATURE IBPB_SUPPORT Not Present
+Aug 18 12:12:10 varant-ceos6v1 kernel: Spectre V2 : Mitigation: Full retpoline
+Aug 18 12:12:10 varant-ceos6v1 kernel: alternatives: switching to unfair spinlock
+Aug 18 12:12:10 varant-ceos6v1 kernel: SMP alternatives: switching to UP code
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: Core revision 20090903
+Aug 18 12:12:10 varant-ceos6v1 kernel: ftrace: converting mcount calls to 0f 1f 44 00 00
+Aug 18 12:12:10 varant-ceos6v1 kernel: ftrace: allocating 22093 entries in 87 pages
+Aug 18 12:12:10 varant-ceos6v1 kernel: Enabling x2apic
+Aug 18 12:12:10 varant-ceos6v1 kernel: Enabled x2apic
+Aug 18 12:12:10 varant-ceos6v1 kernel: APIC routing finalized to physical x2apic.
+Aug 18 12:12:10 varant-ceos6v1 kernel: ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Aug 18 12:12:10 varant-ceos6v1 kernel: CPU0: Intel Xeon E312xx (Sandy Bridge) stepping 01
+Aug 18 12:12:10 varant-ceos6v1 kernel: Performance Events: unsupported p6 CPU model 42 no PMU driver, software events only.
+Aug 18 12:12:10 varant-ceos6v1 kernel: NMI watchdog disabled (cpu0): hardware events not enabled
+Aug 18 12:12:10 varant-ceos6v1 kernel: Brought up 1 CPUs
+Aug 18 12:12:10 varant-ceos6v1 kernel: Total of 1 processors activated (3999.99 BogoMIPS).
+Aug 18 12:12:10 varant-ceos6v1 kernel: devtmpfs: initialized
+Aug 18 12:12:10 varant-ceos6v1 kernel: regulator: core version 0.5
+Aug 18 12:12:10 varant-ceos6v1 kernel: NET: Registered protocol family 16
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: bus type pci registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: PCI: Using configuration type 1 for base access
+Aug 18 12:12:10 varant-ceos6v1 kernel: bio: create slab <bio-0> at 0
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: Interpreter enabled
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: (supports S0 S5)
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: Using IOAPIC for interrupt routing
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: No dock devices found.
+Aug 18 12:12:10 varant-ceos6v1 kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Aug 18 12:12:10 varant-ceos6v1 kernel: pci_root PNP0A03:00: host bridge window [io  0x0000-0x0cf7]
+Aug 18 12:12:10 varant-ceos6v1 kernel: pci_root PNP0A03:00: host bridge window [io  0x0d00-0xffff]
+Aug 18 12:12:10 varant-ceos6v1 kernel: pci_root PNP0A03:00: host bridge window [mem 0x000a0000-0x000bffff]
+Aug 18 12:12:10 varant-ceos6v1 kernel: pci_root PNP0A03:00: host bridge window [mem 0x80000000-0xfebfffff]
+Aug 18 12:12:10 varant-ceos6v1 kernel: pci_root PNP0A03:00: host bridge window [mem 0x680000000-0x6ffffffff]
+Aug 18 12:12:10 varant-ceos6v1 kernel: PCI host bridge to bus 0000:00
+Aug 18 12:12:10 varant-ceos6v1 kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7]
+Aug 18 12:12:10 varant-ceos6v1 kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xffff]
+Aug 18 12:12:10 varant-ceos6v1 kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff]
+Aug 18 12:12:10 varant-ceos6v1 kernel: pci_bus 0000:00: root bus resource [mem 0x80000000-0xfebfffff]
+Aug 18 12:12:10 varant-ceos6v1 kernel: pci_bus 0000:00: root bus resource [mem 0x680000000-0x6ffffffff]
+Aug 18 12:12:10 varant-ceos6v1 kernel: pci 0000:00:01.3: quirk: [io  0x0600-0x063f] claimed by PIIX4 ACPI
+Aug 18 12:12:10 varant-ceos6v1 kernel: pci 0000:00:01.3: quirk: [io  0x0700-0x070f] claimed by PIIX4 SMB
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 5 *10 11)
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 5 10 *11)
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: PCI Interrupt Link [LNKS] (IRQs *9)
+Aug 18 12:12:10 varant-ceos6v1 kernel: vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Aug 18 12:12:10 varant-ceos6v1 kernel: vgaarb: loaded
+Aug 18 12:12:10 varant-ceos6v1 kernel: vgaarb: bridge control possible 0000:00:02.0
+Aug 18 12:12:10 varant-ceos6v1 kernel: SCSI subsystem initialized
+Aug 18 12:12:10 varant-ceos6v1 kernel: usbcore: registered new interface driver usbfs
+Aug 18 12:12:10 varant-ceos6v1 kernel: usbcore: registered new interface driver hub
+Aug 18 12:12:10 varant-ceos6v1 kernel: usbcore: registered new device driver usb
+Aug 18 12:12:10 varant-ceos6v1 kernel: PCI: Using ACPI for IRQ routing
+Aug 18 12:12:10 varant-ceos6v1 kernel: NetLabel: Initializing
+Aug 18 12:12:10 varant-ceos6v1 kernel: NetLabel:  domain hash size = 128
+Aug 18 12:12:10 varant-ceos6v1 kernel: NetLabel:  protocols = UNLABELED CIPSOv4
+Aug 18 12:12:10 varant-ceos6v1 kernel: NetLabel:  unlabeled traffic allowed by default
+Aug 18 12:12:10 varant-ceos6v1 kernel: Switching to clocksource kvm-clock
+Aug 18 12:12:10 varant-ceos6v1 kernel: pnp: PnP ACPI init
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: bus type pnp registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: pnp: PnP ACPI: found 9 devices
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: ACPI bus type pnp unregistered
+Aug 18 12:12:10 varant-ceos6v1 kernel: NET: Registered protocol family 2
+Aug 18 12:12:10 varant-ceos6v1 kernel: IP route cache hash table entries: 65536 (order: 7, 524288 bytes)
+Aug 18 12:12:10 varant-ceos6v1 kernel: TCP established hash table entries: 262144 (order: 10, 4194304 bytes)
+Aug 18 12:12:10 varant-ceos6v1 kernel: TCP bind hash table entries: 65536 (order: 8, 1048576 bytes)
+Aug 18 12:12:10 varant-ceos6v1 kernel: TCP: Hash tables configured (established 262144 bind 65536)
+Aug 18 12:12:10 varant-ceos6v1 kernel: TCP reno registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: NET: Registered protocol family 1
+Aug 18 12:12:10 varant-ceos6v1 kernel: pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Aug 18 12:12:10 varant-ceos6v1 kernel: pci 0000:00:01.0: PIIX3: Enabling Passive Release
+Aug 18 12:12:10 varant-ceos6v1 kernel: pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: PCI Interrupt Link [LNKD] enabled at IRQ 11
+Aug 18 12:12:10 varant-ceos6v1 kernel: pci 0000:00:01.2: PCI INT D -> Link[LNKD] -> GSI 11 (level, high) -> IRQ 11
+Aug 18 12:12:10 varant-ceos6v1 kernel: pci 0000:00:01.2: PCI INT D disabled
+Aug 18 12:12:10 varant-ceos6v1 kernel: Trying to unpack rootfs image as initramfs...
+Aug 18 12:12:10 varant-ceos6v1 kernel: Freeing initrd memory: 18051k freed
+Aug 18 12:12:10 varant-ceos6v1 kernel: sha256_ssse3: Using AVX optimized SHA-256 implementation
+Aug 18 12:12:10 varant-ceos6v1 kernel: futex hash table entries: 4096 (order: 6, 262144 bytes)
+Aug 18 12:12:10 varant-ceos6v1 kernel: audit: initializing netlink socket (disabled)
+Aug 18 12:12:10 varant-ceos6v1 kernel: type=2000 audit(1629303121.801:1): initialized
+Aug 18 12:12:10 varant-ceos6v1 kernel: HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Aug 18 12:12:10 varant-ceos6v1 kernel: VFS: Disk quotas dquot_6.5.2
+Aug 18 12:12:10 varant-ceos6v1 kernel: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Aug 18 12:12:10 varant-ceos6v1 kernel: msgmni has been set to 3743
+Aug 18 12:12:10 varant-ceos6v1 kernel: ksign: Installing public key data
+Aug 18 12:12:10 varant-ceos6v1 kernel: Loading keyring
+Aug 18 12:12:10 varant-ceos6v1 kernel: - Added public key AB4F5DBAD265ED6E
+Aug 18 12:12:10 varant-ceos6v1 kernel: - User ID: CentOS (Kernel Module GPG key)
+Aug 18 12:12:10 varant-ceos6v1 kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 250)
+Aug 18 12:12:10 varant-ceos6v1 kernel: io scheduler noop registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: io scheduler anticipatory registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: io scheduler deadline registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: io scheduler cfq registered (default)
+Aug 18 12:12:10 varant-ceos6v1 kernel: pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Aug 18 12:12:10 varant-ceos6v1 kernel: pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Aug 18 12:12:10 varant-ceos6v1 kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Aug 18 12:12:10 varant-ceos6v1 kernel: acpiphp: Slot [3] registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: acpiphp: Slot [4] registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: acpiphp: Slot [5] registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: acpiphp: Slot [6] registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: acpiphp: Slot [7] registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: acpiphp: Slot [8] registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: acpiphp: Slot [9] registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: acpiphp: Slot [10] registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: acpiphp: Slot [11] registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: acpiphp: Slot [12] registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: acpiphp: Slot [13] registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: acpiphp: Slot [14] registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: acpiphp: Slot [15] registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: acpiphp: Slot [16] registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: acpiphp: Slot [17] registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: acpiphp: Slot [18] registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: acpiphp: Slot [19] registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: acpiphp: Slot [20] registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: acpiphp: Slot [21] registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: acpiphp: Slot [22] registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: acpiphp: Slot [23] registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: acpiphp: Slot [24] registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: acpiphp: Slot [25] registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: acpiphp: Slot [26] registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: acpiphp: Slot [27] registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: acpiphp: Slot [28] registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: acpiphp: Slot [29] registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: acpiphp: Slot [30] registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: acpiphp: Slot [31] registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: Power Button [PWRF]
+Aug 18 12:12:10 varant-ceos6v1 kernel: [Firmware Bug]: No valid trip found
+Aug 18 12:12:10 varant-ceos6v1 kernel: GHES: HEST is not enabled!
+Aug 18 12:12:10 varant-ceos6v1 kernel: Non-volatile memory driver v1.3
+Aug 18 12:12:10 varant-ceos6v1 kernel: Linux agpgart interface v0.103
+Aug 18 12:12:10 varant-ceos6v1 kernel: crash memory driver: version 1.1
+Aug 18 12:12:10 varant-ceos6v1 kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Aug 18 12:12:10 varant-ceos6v1 kernel: brd: module loaded
+Aug 18 12:12:10 varant-ceos6v1 kernel: loop: module loaded
+Aug 18 12:12:10 varant-ceos6v1 kernel: input: Macintosh mouse button emulation as /devices/virtual/input/input1
+Aug 18 12:12:10 varant-ceos6v1 kernel: Fixed MDIO Bus: probed
+Aug 18 12:12:10 varant-ceos6v1 kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Aug 18 12:12:10 varant-ceos6v1 kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Aug 18 12:12:10 varant-ceos6v1 kernel: uhci_hcd: USB Universal Host Controller Interface driver
+Aug 18 12:12:10 varant-ceos6v1 kernel: uhci_hcd 0000:00:01.2: PCI INT D -> Link[LNKD] -> GSI 11 (level, high) -> IRQ 11
+Aug 18 12:12:10 varant-ceos6v1 kernel: uhci_hcd 0000:00:01.2: UHCI Host Controller
+Aug 18 12:12:10 varant-ceos6v1 kernel: uhci_hcd 0000:00:01.2: new USB bus registered, assigned bus number 1
+Aug 18 12:12:10 varant-ceos6v1 kernel: uhci_hcd 0000:00:01.2: irq 11, io base 0x0000c0c0
+Aug 18 12:12:10 varant-ceos6v1 kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+Aug 18 12:12:10 varant-ceos6v1 kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Aug 18 12:12:10 varant-ceos6v1 kernel: usb usb1: Product: UHCI Host Controller
+Aug 18 12:12:10 varant-ceos6v1 kernel: usb usb1: Manufacturer: Linux 2.6.32-754.14.2.el6.x86_64 uhci_hcd
+Aug 18 12:12:10 varant-ceos6v1 kernel: usb usb1: SerialNumber: 0000:00:01.2
+Aug 18 12:12:10 varant-ceos6v1 kernel: usb usb1: configuration #1 chosen from 1 choice
+Aug 18 12:12:10 varant-ceos6v1 kernel: hub 1-0:1.0: USB hub found
+Aug 18 12:12:10 varant-ceos6v1 kernel: hub 1-0:1.0: 2 ports detected
+Aug 18 12:12:10 varant-ceos6v1 kernel: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+Aug 18 12:12:10 varant-ceos6v1 kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+Aug 18 12:12:10 varant-ceos6v1 kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+Aug 18 12:12:10 varant-ceos6v1 kernel: mice: PS/2 mouse device common for all mice
+Aug 18 12:12:10 varant-ceos6v1 kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Aug 18 12:12:10 varant-ceos6v1 kernel: rtc_cmos 00:01: RTC can wake from S4
+Aug 18 12:12:10 varant-ceos6v1 kernel: rtc_cmos 00:01: rtc core: registered rtc_cmos as rtc0
+Aug 18 12:12:10 varant-ceos6v1 kernel: rtc0: alarms up to one day, y3k, 114 bytes nvram
+Aug 18 12:12:10 varant-ceos6v1 kernel: cpuidle: using governor ladder
+Aug 18 12:12:10 varant-ceos6v1 kernel: cpuidle: using governor menu
+Aug 18 12:12:10 varant-ceos6v1 kernel: EFI Variables Facility v0.08 2004-May-17
+Aug 18 12:12:10 varant-ceos6v1 kernel: usbcore: registered new interface driver hiddev
+Aug 18 12:12:10 varant-ceos6v1 kernel: usbcore: registered new interface driver usbhid
+Aug 18 12:12:10 varant-ceos6v1 kernel: usbhid: v2.6:USB HID core driver
+Aug 18 12:12:10 varant-ceos6v1 kernel: GRE over IPv4 demultiplexor driver
+Aug 18 12:12:10 varant-ceos6v1 kernel: TCP cubic registered
+Aug 18 12:12:10 varant-ceos6v1 kernel: Initializing XFRM netlink socket
+Aug 18 12:12:10 varant-ceos6v1 kernel: NET: Registered protocol family 17
+Aug 18 12:12:10 varant-ceos6v1 kernel: registered taskstats version 1
+Aug 18 12:12:10 varant-ceos6v1 kernel: rtc_cmos 00:01: setting system clock to 2021-08-18 16:12:00 UTC (1629303120)
+Aug 18 12:12:10 varant-ceos6v1 kernel: Initalizing network drop monitor service
+Aug 18 12:12:10 varant-ceos6v1 kernel: Freeing unused kernel memory: 1348k freed
+Aug 18 12:12:10 varant-ceos6v1 kernel: Write protecting the kernel read-only data: 10240k
+Aug 18 12:12:10 varant-ceos6v1 kernel: Freeing unused kernel memory: 584k freed
+Aug 18 12:12:10 varant-ceos6v1 kernel: Freeing unused kernel memory: 1524k freed
+Aug 18 12:12:10 varant-ceos6v1 kernel: dracut: dracut-004-411.el6
+Aug 18 12:12:10 varant-ceos6v1 kernel: dracut: rd_NO_LUKS: removing cryptoluks activation
+Aug 18 12:12:10 varant-ceos6v1 kernel: device-mapper: uevent: version 1.0.3
+Aug 18 12:12:10 varant-ceos6v1 kernel: device-mapper: ioctl: 4.33.1-ioctl (2015-8-18) initialised: dm-devel@redhat.com
+Aug 18 12:12:10 varant-ceos6v1 kernel: udev: starting version 147
+Aug 18 12:12:10 varant-ceos6v1 kernel: dracut: Starting plymouth daemon
+Aug 18 12:12:10 varant-ceos6v1 kernel: dracut: rd_NO_MD: removing MD RAID activation
+Aug 18 12:12:10 varant-ceos6v1 kernel: scsi0 : ata_piix
+Aug 18 12:12:10 varant-ceos6v1 kernel: scsi1 : ata_piix
+Aug 18 12:12:10 varant-ceos6v1 kernel: ata1: PATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xc120 irq 14
+Aug 18 12:12:10 varant-ceos6v1 kernel: ata2: PATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xc128 irq 15
+Aug 18 12:12:10 varant-ceos6v1 kernel: input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input3
+Aug 18 12:12:10 varant-ceos6v1 kernel: ata2.00: ATAPI: QEMU DVD-ROM, 2.5+, max UDMA/100
+Aug 18 12:12:10 varant-ceos6v1 kernel: ata2.00: configured for MWDMA2
+Aug 18 12:12:10 varant-ceos6v1 kernel: scsi 1:0:0:0: CD-ROM            QEMU     QEMU DVD-ROM     2.5+ PQ: 0 ANSI: 5
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: PCI Interrupt Link [LNKC] enabled at IRQ 10
+Aug 18 12:12:10 varant-ceos6v1 kernel: virtio-pci 0000:00:03.0: PCI INT A -> Link[LNKC] -> GSI 10 (level, high) -> IRQ 10
+Aug 18 12:12:10 varant-ceos6v1 kernel: virtio-pci 0000:00:04.0: PCI INT A -> Link[LNKD] -> GSI 11 (level, high) -> IRQ 11
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: PCI Interrupt Link [LNKA] enabled at IRQ 10
+Aug 18 12:12:10 varant-ceos6v1 kernel: virtio-pci 0000:00:05.0: PCI INT A -> Link[LNKA] -> GSI 10 (level, high) -> IRQ 10
+Aug 18 12:12:10 varant-ceos6v1 kernel: ACPI: PCI Interrupt Link [LNKB] enabled at IRQ 11
+Aug 18 12:12:10 varant-ceos6v1 kernel: virtio-pci 0000:00:06.0: PCI INT A -> Link[LNKB] -> GSI 11 (level, high) -> IRQ 11
+Aug 18 12:12:10 varant-ceos6v1 kernel: sr0: scsi3-mmc drive: 4x/4x cd/rw xa/form2 tray
+Aug 18 12:12:10 varant-ceos6v1 kernel: Uniform CD-ROM driver Revision: 3.20
+Aug 18 12:12:10 varant-ceos6v1 kernel: scsi2 : Virtio SCSI HBA
+Aug 18 12:12:10 varant-ceos6v1 kernel: scsi 2:0:0:0: Direct-Access     QEMU     QEMU HARDDISK    2.5+ PQ: 0 ANSI: 5
+Aug 18 12:12:10 varant-ceos6v1 kernel: sd 2:0:0:0: [sda] 31457280 512-byte logical blocks: (16.1 GB/15.0 GiB)
+Aug 18 12:12:10 varant-ceos6v1 kernel: sd 2:0:0:0: [sda] Write Protect is off
+Aug 18 12:12:10 varant-ceos6v1 kernel: sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Aug 18 12:12:10 varant-ceos6v1 kernel: sda: sda1 sda2
+Aug 18 12:12:10 varant-ceos6v1 kernel: sd 2:0:0:0: [sda] Attached SCSI disk
+Aug 18 12:12:10 varant-ceos6v1 kernel: dracut: Scanning devices sda2  for LVM logical volumes vg_vagrantcentos6/lv_root vg_vagrantcentos6/lv_swap 
+Aug 18 12:12:10 varant-ceos6v1 kernel: dracut: inactive '/dev/vg_vagrantcentos6/lv_root' [13.01 GiB] inherit
+Aug 18 12:12:10 varant-ceos6v1 kernel: dracut: inactive '/dev/vg_vagrantcentos6/lv_swap' [1.50 GiB] inherit
+Aug 18 12:12:10 varant-ceos6v1 kernel: EXT4-fs (dm-0): mounted filesystem with ordered data mode. Opts: 
+Aug 18 12:12:10 varant-ceos6v1 kernel: dracut: Mounted root filesystem /dev/mapper/vg_vagrantcentos6-lv_root
+Aug 18 12:12:10 varant-ceos6v1 kernel: SELinux:  Disabled at runtime.
+Aug 18 12:12:10 varant-ceos6v1 kernel: type=1404 audit(1629303122.357:2): selinux=0 auid=4294967295 ses=4294967295
+Aug 18 12:12:10 varant-ceos6v1 kernel: dracut: 
+Aug 18 12:12:10 varant-ceos6v1 kernel: dracut: Switching root
+Aug 18 12:12:10 varant-ceos6v1 kernel: udev: starting version 147
+Aug 18 12:12:10 varant-ceos6v1 kernel: sr 1:0:0:0: Attached scsi generic sg0 type 5
+Aug 18 12:12:10 varant-ceos6v1 kernel: sd 2:0:0:0: Attached scsi generic sg1 type 0
+Aug 18 12:12:10 varant-ceos6v1 kernel: piix4_smbus 0000:00:01.3: SMBus Host Controller at 0x700, revision 0
+Aug 18 12:12:10 varant-ceos6v1 kernel: EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: 
+Aug 18 12:12:10 varant-ceos6v1 kernel: Adding 1572860k swap on /dev/mapper/vg_vagrantcentos6-lv_swap.  Priority:-1 extents:1 across:1572860k 
+Aug 18 12:12:10 varant-ceos6v1 kernel: NET: Registered protocol family 10
+Aug 18 12:12:10 varant-ceos6v1 kernel: lo: Disabled Privacy Extensions
+Aug 18 12:12:10 varant-ceos6v1 kernel: type=1305 audit(1629303130.508:3): audit_pid=1069 old=0 auid=4294967295 ses=4294967295 res=1
+Aug 18 12:12:15 varant-ceos6v1 rhnsd[1347]: Spacewalk Services Daemon starting up, check in interval 240 minutes.
+Aug 18 12:26:16 varant-ceos6v1 init: tty (/dev/tty2) main process (1360) killed by TERM signal
+Aug 18 12:26:16 varant-ceos6v1 init: tty (/dev/tty3) main process (1362) killed by TERM signal
+Aug 18 12:26:16 varant-ceos6v1 init: tty (/dev/tty4) main process (1364) killed by TERM signal
+Aug 18 12:26:16 varant-ceos6v1 init: tty (/dev/tty5) main process (1367) killed by TERM signal
+Aug 18 12:26:16 varant-ceos6v1 init: tty (/dev/tty6) main process (1369) killed by TERM signal
+Aug 18 12:26:16 varant-ceos6v1 rhnsd[1347]: Exiting
+Aug 18 12:26:18 varant-ceos6v1 auditd[1069]: The audit daemon is exiting.
+Aug 18 12:26:18 varant-ceos6v1 kernel: type=1305 audit(1629303978.195:41): audit_pid=0 old=1069 auid=4294967295 ses=4294967295 res=1
+Aug 18 12:26:18 varant-ceos6v1 kernel: type=1305 audit(1629303978.296:42): audit_enabled=0 old=1 auid=4294967295 ses=4294967295 res=1
+Aug 18 12:26:18 varant-ceos6v1 kernel: Kernel logging (proc) stopped.
+Aug 18 12:26:18 varant-ceos6v1 rsyslogd: [origin software="rsyslogd" swVersion="5.8.10" x-pid="1091" x-info="http://www.rsyslog.com"] exiting on signal 15.
+Apr 27 12:57:32 vagrant-centosv3 kernel: imklog 5.8.10, log source = /proc/kmsg started.
+Apr 27 12:57:32 vagrant-centosv3 rsyslogd: [origin software="rsyslogd" swVersion="5.8.10" x-pid="1140" x-info="http://www.rsyslog.com"] start
+Apr 27 12:57:32 vagrant-centosv3 kernel: Initializing cgroup subsys cpuset
+Apr 27 12:57:32 vagrant-centosv3 kernel: Initializing cgroup subsys cpu
+Apr 27 12:57:32 vagrant-centosv3 kernel: Linux version 2.6.32-754.14.2.el6.x86_64 (mockbuild@x86-01.bsys.centos.org) (gcc version 4.4.7 20120313 (Red Hat 4.4.7-23) (GCC) ) #1 SMP Tue May 14 19:35:42 UTC 2019
+Apr 27 12:57:32 vagrant-centosv3 kernel: Command line: ro root=/dev/mapper/vg_vagrantcentos6-lv_root rd_NO_LUKS  KEYBOARDTYPE=pc KEYTABLE=us LANG=en_US.UTF-8 rd_LVM_LV=vg_vagrantcentos6/lv_root rd_NO_MD rd_LVM_LV=vg_vagrantcentos6/lv_swap crashkernel=auto SYSFONT=latarcyrheb-sun16 rd_NO_DM rhgb quiet
+Apr 27 12:57:32 vagrant-centosv3 kernel: KERNEL supported cpus:
+Apr 27 12:57:32 vagrant-centosv3 kernel:  Intel GenuineIntel
+Apr 27 12:57:32 vagrant-centosv3 kernel:  AMD AuthenticAMD
+Apr 27 12:57:32 vagrant-centosv3 kernel:  Centaur CentaurHauls
+Apr 27 12:57:32 vagrant-centosv3 kernel: BIOS-provided physical RAM map:
+Apr 27 12:57:32 vagrant-centosv3 kernel: BIOS-e820: 0000000000000000 - 000000000009fc00 (usable)
+Apr 27 12:57:32 vagrant-centosv3 kernel: BIOS-e820: 000000000009fc00 - 00000000000a0000 (reserved)
+Apr 27 12:57:32 vagrant-centosv3 kernel: BIOS-e820: 00000000000f0000 - 0000000000100000 (reserved)
+Apr 27 12:57:32 vagrant-centosv3 kernel: BIOS-e820: 0000000000100000 - 000000007ffdc000 (usable)
+Apr 27 12:57:32 vagrant-centosv3 kernel: BIOS-e820: 000000007ffdc000 - 0000000080000000 (reserved)
+Apr 27 12:57:32 vagrant-centosv3 kernel: BIOS-e820: 00000000feffc000 - 00000000ff000000 (reserved)
+Apr 27 12:57:32 vagrant-centosv3 kernel: BIOS-e820: 00000000fffc0000 - 0000000100000000 (reserved)
+Apr 27 12:57:32 vagrant-centosv3 kernel: SMBIOS version 2.8 @ 0xF6060
+Apr 27 12:57:32 vagrant-centosv3 kernel: SMBIOS 2.8 present.
+Apr 27 12:57:32 vagrant-centosv3 kernel: Hypervisor detected: KVM
+Apr 27 12:57:32 vagrant-centosv3 kernel: last_pfn = 0x7ffdc max_arch_pfn = 0x400000000
+Apr 27 12:57:32 vagrant-centosv3 kernel: x86 PAT enabled: cpu 0, old 0x7040600070406, new 0x7010600070106
+Apr 27 12:57:32 vagrant-centosv3 kernel: init_memory_mapping: 0000000000000000-000000007ffdc000
+Apr 27 12:57:32 vagrant-centosv3 kernel: RAMDISK: 36e4f000 - 37fefca8
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: Deleted _OSI(Windows 2012)
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: Deleted _OSI(Windows 2013)
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: RSDP 00000000000f6030 00014 (v00 BOCHS )
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: RSDT 000000007ffe1c7f 00030 (v01 BOCHS  BXPCRSDT 00000001 BXPC 00000001)
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: FACP 000000007ffe1973 00074 (v01 BOCHS  BXPCFACP 00000001 BXPC 00000001)
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: DSDT 000000007ffe0040 01933 (v01 BOCHS  BXPCDSDT 00000001 BXPC 00000001)
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: FACS 000000007ffe0000 00040
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: APIC 000000007ffe19e7 000F0 (v01 BOCHS  BXPCAPIC 00000001 BXPC 00000001)
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: SRAT 000000007ffe1ad7 001A8 (v01 BOCHS  BXPCSRAT 00000001 BXPC 00000001)
+Apr 27 12:57:32 vagrant-centosv3 kernel: Setting APIC routing to flat.
+Apr 27 12:57:32 vagrant-centosv3 kernel: SRAT: PXM 0 -> APIC 0 -> Node 0
+Apr 27 12:57:32 vagrant-centosv3 kernel: SRAT: PXM 0 -> APIC 1 -> Node 0
+Apr 27 12:57:32 vagrant-centosv3 kernel: SRAT: PXM 0 -> APIC 2 -> Node 0
+Apr 27 12:57:32 vagrant-centosv3 kernel: SRAT: PXM 0 -> APIC 3 -> Node 0
+Apr 27 12:57:32 vagrant-centosv3 kernel: SRAT: PXM 0 -> APIC 4 -> Node 0
+Apr 27 12:57:32 vagrant-centosv3 kernel: SRAT: PXM 0 -> APIC 5 -> Node 0
+Apr 27 12:57:32 vagrant-centosv3 kernel: SRAT: PXM 0 -> APIC 6 -> Node 0
+Apr 27 12:57:32 vagrant-centosv3 kernel: SRAT: PXM 0 -> APIC 7 -> Node 0
+Apr 27 12:57:32 vagrant-centosv3 kernel: SRAT: PXM 0 -> APIC 8 -> Node 0
+Apr 27 12:57:32 vagrant-centosv3 kernel: SRAT: PXM 0 -> APIC 9 -> Node 0
+Apr 27 12:57:32 vagrant-centosv3 kernel: SRAT: PXM 0 -> APIC 10 -> Node 0
+Apr 27 12:57:32 vagrant-centosv3 kernel: SRAT: PXM 0 -> APIC 11 -> Node 0
+Apr 27 12:57:32 vagrant-centosv3 kernel: SRAT: PXM 0 -> APIC 12 -> Node 0
+Apr 27 12:57:32 vagrant-centosv3 kernel: SRAT: PXM 0 -> APIC 13 -> Node 0
+Apr 27 12:57:32 vagrant-centosv3 kernel: SRAT: PXM 0 -> APIC 14 -> Node 0
+Apr 27 12:57:32 vagrant-centosv3 kernel: SRAT: PXM 0 -> APIC 15 -> Node 0
+Apr 27 12:57:32 vagrant-centosv3 kernel: SRAT: Node 0 PXM 0 0-a0000
+Apr 27 12:57:32 vagrant-centosv3 kernel: SRAT: Node 0 PXM 0 100000-80000000
+Apr 27 12:57:32 vagrant-centosv3 kernel: Bootmem setup node 0 0000000000000000-000000007ffdc000
+Apr 27 12:57:32 vagrant-centosv3 kernel:  NODE_DATA [000000000000b040 - 000000000003f03f]
+Apr 27 12:57:32 vagrant-centosv3 kernel:  bootmap [0000000000040000 -  000000000004ffff] pages 10
+Apr 27 12:57:32 vagrant-centosv3 kernel: (8 early reservations) ==> bootmem [0000000000 - 007ffdc000]
+Apr 27 12:57:32 vagrant-centosv3 kernel:  #0 [0000000000 - 0000001000]   BIOS data page ==> [0000000000 - 0000001000]
+Apr 27 12:57:32 vagrant-centosv3 kernel:  #1 [0000006000 - 0000008000]       TRAMPOLINE ==> [0000006000 - 0000008000]
+Apr 27 12:57:32 vagrant-centosv3 kernel:  #2 [0001000000 - 0002052a64]    TEXT DATA BSS ==> [0001000000 - 0002052a64]
+Apr 27 12:57:32 vagrant-centosv3 kernel:  #3 [0036e4f000 - 0037fefca8]          RAMDISK ==> [0036e4f000 - 0037fefca8]
+Apr 27 12:57:32 vagrant-centosv3 kernel:  #4 [000009fc00 - 0000100000]    BIOS reserved ==> [000009fc00 - 0000100000]
+Apr 27 12:57:32 vagrant-centosv3 kernel:  #5 [0002053000 - 0002053101]              BRK ==> [0002053000 - 0002053101]
+Apr 27 12:57:32 vagrant-centosv3 kernel:  #6 [0000008000 - 000000a000]          PGTABLE ==> [0000008000 - 000000a000]
+Apr 27 12:57:32 vagrant-centosv3 kernel:  #7 [000000a000 - 000000b040]       MEMNODEMAP ==> [000000a000 - 000000b040]
+Apr 27 12:57:32 vagrant-centosv3 kernel: found SMP MP-table at [ffff8800000f6260] f6260
+Apr 27 12:57:32 vagrant-centosv3 kernel: Found 129MB of memory at 48MB for crashkernel auto 
+Apr 27 12:57:32 vagrant-centosv3 kernel: Reserving 129MB of memory at 48MB for crashkernel (System RAM: 2047MB)
+Apr 27 12:57:32 vagrant-centosv3 kernel: kvm-clock: Using msrs 4b564d01 and 4b564d00
+Apr 27 12:57:32 vagrant-centosv3 kernel: kvm-clock: cpu 0, msr 0:1c3db81, boot clock
+Apr 27 12:57:32 vagrant-centosv3 kernel: Zone PFN ranges:
+Apr 27 12:57:32 vagrant-centosv3 kernel:  DMA      0x00000001 -> 0x00001000
+Apr 27 12:57:32 vagrant-centosv3 kernel:  DMA32    0x00001000 -> 0x00100000
+Apr 27 12:57:32 vagrant-centosv3 kernel:  Normal   0x00100000 -> 0x00100000
+Apr 27 12:57:32 vagrant-centosv3 kernel: Movable zone start PFN for each node
+Apr 27 12:57:32 vagrant-centosv3 kernel: early_node_map[2] active PFN ranges
+Apr 27 12:57:32 vagrant-centosv3 kernel:    0: 0x00000001 -> 0x0000009f
+Apr 27 12:57:32 vagrant-centosv3 kernel:    0: 0x00000100 -> 0x0007ffdc
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: PM-Timer IO Port: 0x608
+Apr 27 12:57:32 vagrant-centosv3 kernel: Setting APIC routing to flat.
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] disabled)
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: LAPIC (acpi_id[0x02] lapic_id[0x02] disabled)
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: LAPIC (acpi_id[0x03] lapic_id[0x03] disabled)
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: LAPIC (acpi_id[0x04] lapic_id[0x04] disabled)
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: LAPIC (acpi_id[0x05] lapic_id[0x05] disabled)
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: LAPIC (acpi_id[0x06] lapic_id[0x06] disabled)
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: LAPIC (acpi_id[0x07] lapic_id[0x07] disabled)
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: LAPIC (acpi_id[0x08] lapic_id[0x08] disabled)
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: LAPIC (acpi_id[0x09] lapic_id[0x09] disabled)
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: LAPIC (acpi_id[0x0a] lapic_id[0x0a] disabled)
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: LAPIC (acpi_id[0x0b] lapic_id[0x0b] disabled)
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: LAPIC (acpi_id[0x0c] lapic_id[0x0c] disabled)
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: LAPIC (acpi_id[0x0d] lapic_id[0x0d] disabled)
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: LAPIC (acpi_id[0x0e] lapic_id[0x0e] disabled)
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: LAPIC (acpi_id[0x0f] lapic_id[0x0f] disabled)
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: IOAPIC (id[0x00] address[0xfec00000] gsi_base[0])
+Apr 27 12:57:32 vagrant-centosv3 kernel: IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+Apr 27 12:57:32 vagrant-centosv3 kernel: Using ACPI (MADT) for SMP configuration information
+Apr 27 12:57:32 vagrant-centosv3 kernel: SMP: Allowing 16 CPUs, 15 hotplug CPUs
+Apr 27 12:57:32 vagrant-centosv3 kernel: PM: Registered nosave memory: 000000000009f000 - 00000000000a0000
+Apr 27 12:57:32 vagrant-centosv3 kernel: PM: Registered nosave memory: 00000000000a0000 - 00000000000f0000
+Apr 27 12:57:32 vagrant-centosv3 kernel: PM: Registered nosave memory: 00000000000f0000 - 0000000000100000
+Apr 27 12:57:32 vagrant-centosv3 kernel: Allocating PCI resources starting at 80000000 (gap: 80000000:7effc000)
+Apr 27 12:57:32 vagrant-centosv3 kernel: Booting paravirtualized kernel on KVM
+Apr 27 12:57:32 vagrant-centosv3 kernel: NR_CPUS:4096 nr_cpumask_bits:16 nr_cpu_ids:16 nr_node_ids:1
+Apr 27 12:57:32 vagrant-centosv3 kernel: PERCPU: Embedded 33 pages/cpu @ffff88000c400000 s104088 r8192 d22888 u262144
+Apr 27 12:57:32 vagrant-centosv3 kernel: pcpu-alloc: s104088 r8192 d22888 u262144 alloc=1*2097152
+Apr 27 12:57:32 vagrant-centosv3 kernel: pcpu-alloc: [0] 00 01 02 03 04 05 06 07 [0] 08 09 10 11 12 13 14 15 
+Apr 27 12:57:32 vagrant-centosv3 kernel: kvm-clock: cpu 0, msr 0:c418b81, primary cpu clock
+Apr 27 12:57:32 vagrant-centosv3 kernel: kvm-stealtime: cpu 0, msr c412d00
+Apr 27 12:57:32 vagrant-centosv3 kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 516884
+Apr 27 12:57:32 vagrant-centosv3 kernel: Policy zone: DMA32
+Apr 27 12:57:32 vagrant-centosv3 kernel: Kernel command line: ro root=/dev/mapper/vg_vagrantcentos6-lv_root rd_NO_LUKS  KEYBOARDTYPE=pc KEYTABLE=us LANG=en_US.UTF-8 rd_LVM_LV=vg_vagrantcentos6/lv_root rd_NO_MD rd_LVM_LV=vg_vagrantcentos6/lv_swap crashkernel=129M@48M SYSFONT=latarcyrheb-sun16 rd_NO_DM rhgb quiet
+Apr 27 12:57:32 vagrant-centosv3 kernel: PID hash table entries: 4096 (order: 3, 32768 bytes)
+Apr 27 12:57:32 vagrant-centosv3 kernel: x86/fpu: xstate_offset[2]: 0240, xstate_sizes[2]: 0100
+Apr 27 12:57:32 vagrant-centosv3 kernel: xsave: enabled eager FPU xstate_bv 0x7, cntxt size 0x340
+Apr 27 12:57:32 vagrant-centosv3 kernel: Memory: 1898448k/2097008k available (5540k kernel code, 392k absent, 198168k reserved, 6889k data, 1348k init)
+Apr 27 12:57:32 vagrant-centosv3 kernel: Kernel/User page tables isolation: enabled
+Apr 27 12:57:32 vagrant-centosv3 kernel: Hierarchical RCU implementation.
+Apr 27 12:57:32 vagrant-centosv3 kernel: NR_IRQS:33024 nr_irqs:536
+Apr 27 12:57:32 vagrant-centosv3 kernel: Console: colour VGA+ 80x25
+Apr 27 12:57:32 vagrant-centosv3 kernel: console [tty0] enabled
+Apr 27 12:57:32 vagrant-centosv3 kernel: allocated 8388608 bytes of page_cgroup
+Apr 27 12:57:32 vagrant-centosv3 kernel: please try 'cgroup_disable=memory' option if you don't want memory cgroups
+Apr 27 12:57:32 vagrant-centosv3 kernel: Detected 1999.999 MHz processor.
+Apr 27 12:57:32 vagrant-centosv3 kernel: Calibrating delay loop (skipped) preset value.. 3999.99 BogoMIPS (lpj=1999999)
+Apr 27 12:57:32 vagrant-centosv3 kernel: pid_max: default: 32768 minimum: 301
+Apr 27 12:57:32 vagrant-centosv3 kernel: Security Framework initialized
+Apr 27 12:57:32 vagrant-centosv3 kernel: SELinux:  Initializing.
+Apr 27 12:57:32 vagrant-centosv3 kernel: Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+Apr 27 12:57:32 vagrant-centosv3 kernel: Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Apr 27 12:57:32 vagrant-centosv3 kernel: Mount-cache hash table entries: 256
+Apr 27 12:57:32 vagrant-centosv3 kernel: Initializing cgroup subsys ns
+Apr 27 12:57:32 vagrant-centosv3 kernel: Initializing cgroup subsys cpuacct
+Apr 27 12:57:32 vagrant-centosv3 kernel: Initializing cgroup subsys memory
+Apr 27 12:57:32 vagrant-centosv3 kernel: Initializing cgroup subsys devices
+Apr 27 12:57:32 vagrant-centosv3 kernel: Initializing cgroup subsys freezer
+Apr 27 12:57:32 vagrant-centosv3 kernel: Initializing cgroup subsys net_cls
+Apr 27 12:57:32 vagrant-centosv3 kernel: Initializing cgroup subsys blkio
+Apr 27 12:57:32 vagrant-centosv3 kernel: Initializing cgroup subsys perf_event
+Apr 27 12:57:32 vagrant-centosv3 kernel: Initializing cgroup subsys net_prio
+Apr 27 12:57:32 vagrant-centosv3 kernel: mce: CPU supports 10 MCE banks
+Apr 27 12:57:32 vagrant-centosv3 kernel: Speculative Store Bypass: Vulnerable
+Apr 27 12:57:32 vagrant-centosv3 kernel: MDS: Vulnerable: Clear CPU buffers attempted, no microcode
+Apr 27 12:57:32 vagrant-centosv3 kernel: FEATURE SPEC_CTRL Not Present
+Apr 27 12:57:32 vagrant-centosv3 kernel: FEATURE IBPB_SUPPORT Not Present
+Apr 27 12:57:32 vagrant-centosv3 kernel: Spectre V2 : Mitigation: Full retpoline
+Apr 27 12:57:32 vagrant-centosv3 kernel: alternatives: switching to unfair spinlock
+Apr 27 12:57:32 vagrant-centosv3 kernel: SMP alternatives: switching to UP code
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: Core revision 20090903
+Apr 27 12:57:32 vagrant-centosv3 kernel: ftrace: converting mcount calls to 0f 1f 44 00 00
+Apr 27 12:57:32 vagrant-centosv3 kernel: ftrace: allocating 22093 entries in 87 pages
+Apr 27 12:57:32 vagrant-centosv3 kernel: Enabling x2apic
+Apr 27 12:57:32 vagrant-centosv3 kernel: Enabled x2apic
+Apr 27 12:57:32 vagrant-centosv3 kernel: APIC routing finalized to physical x2apic.
+Apr 27 12:57:32 vagrant-centosv3 kernel: ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Apr 27 12:57:32 vagrant-centosv3 kernel: CPU0: Intel Xeon E312xx (Sandy Bridge) stepping 01
+Apr 27 12:57:32 vagrant-centosv3 kernel: Performance Events: unsupported p6 CPU model 42 no PMU driver, software events only.
+Apr 27 12:57:32 vagrant-centosv3 kernel: NMI watchdog disabled (cpu0): hardware events not enabled
+Apr 27 12:57:32 vagrant-centosv3 kernel: Brought up 1 CPUs
+Apr 27 12:57:32 vagrant-centosv3 kernel: Total of 1 processors activated (3999.99 BogoMIPS).
+Apr 27 12:57:32 vagrant-centosv3 kernel: devtmpfs: initialized
+Apr 27 12:57:32 vagrant-centosv3 kernel: regulator: core version 0.5
+Apr 27 12:57:32 vagrant-centosv3 kernel: NET: Registered protocol family 16
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: bus type pci registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: PCI: Using configuration type 1 for base access
+Apr 27 12:57:32 vagrant-centosv3 kernel: bio: create slab <bio-0> at 0
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: Interpreter enabled
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: (supports S0 S5)
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: Using IOAPIC for interrupt routing
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: No dock devices found.
+Apr 27 12:57:32 vagrant-centosv3 kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Apr 27 12:57:32 vagrant-centosv3 kernel: pci_root PNP0A03:00: host bridge window [io  0x0000-0x0cf7]
+Apr 27 12:57:32 vagrant-centosv3 kernel: pci_root PNP0A03:00: host bridge window [io  0x0d00-0xffff]
+Apr 27 12:57:32 vagrant-centosv3 kernel: pci_root PNP0A03:00: host bridge window [mem 0x000a0000-0x000bffff]
+Apr 27 12:57:32 vagrant-centosv3 kernel: pci_root PNP0A03:00: host bridge window [mem 0x80000000-0xfebfffff]
+Apr 27 12:57:32 vagrant-centosv3 kernel: pci_root PNP0A03:00: host bridge window [mem 0x100000000-0x17fffffff]
+Apr 27 12:57:32 vagrant-centosv3 kernel: PCI host bridge to bus 0000:00
+Apr 27 12:57:32 vagrant-centosv3 kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7]
+Apr 27 12:57:32 vagrant-centosv3 kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xffff]
+Apr 27 12:57:32 vagrant-centosv3 kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff]
+Apr 27 12:57:32 vagrant-centosv3 kernel: pci_bus 0000:00: root bus resource [mem 0x80000000-0xfebfffff]
+Apr 27 12:57:32 vagrant-centosv3 kernel: pci_bus 0000:00: root bus resource [mem 0x100000000-0x17fffffff]
+Apr 27 12:57:32 vagrant-centosv3 kernel: pci 0000:00:01.3: quirk: [io  0x0600-0x063f] claimed by PIIX4 ACPI
+Apr 27 12:57:32 vagrant-centosv3 kernel: pci 0000:00:01.3: quirk: [io  0x0700-0x070f] claimed by PIIX4 SMB
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 5 *10 11)
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 5 10 *11)
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: PCI Interrupt Link [LNKS] (IRQs *9)
+Apr 27 12:57:32 vagrant-centosv3 kernel: vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Apr 27 12:57:32 vagrant-centosv3 kernel: vgaarb: loaded
+Apr 27 12:57:32 vagrant-centosv3 kernel: vgaarb: bridge control possible 0000:00:02.0
+Apr 27 12:57:32 vagrant-centosv3 kernel: SCSI subsystem initialized
+Apr 27 12:57:32 vagrant-centosv3 kernel: usbcore: registered new interface driver usbfs
+Apr 27 12:57:32 vagrant-centosv3 kernel: usbcore: registered new interface driver hub
+Apr 27 12:57:32 vagrant-centosv3 kernel: usbcore: registered new device driver usb
+Apr 27 12:57:32 vagrant-centosv3 kernel: PCI: Using ACPI for IRQ routing
+Apr 27 12:57:32 vagrant-centosv3 kernel: NetLabel: Initializing
+Apr 27 12:57:32 vagrant-centosv3 kernel: NetLabel:  domain hash size = 128
+Apr 27 12:57:32 vagrant-centosv3 kernel: NetLabel:  protocols = UNLABELED CIPSOv4
+Apr 27 12:57:32 vagrant-centosv3 kernel: NetLabel:  unlabeled traffic allowed by default
+Apr 27 12:57:32 vagrant-centosv3 kernel: Switching to clocksource kvm-clock
+Apr 27 12:57:32 vagrant-centosv3 kernel: pnp: PnP ACPI init
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: bus type pnp registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: pnp: PnP ACPI: found 8 devices
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: ACPI bus type pnp unregistered
+Apr 27 12:57:32 vagrant-centosv3 kernel: NET: Registered protocol family 2
+Apr 27 12:57:32 vagrant-centosv3 kernel: IP route cache hash table entries: 65536 (order: 7, 524288 bytes)
+Apr 27 12:57:32 vagrant-centosv3 kernel: TCP established hash table entries: 262144 (order: 10, 4194304 bytes)
+Apr 27 12:57:32 vagrant-centosv3 kernel: TCP bind hash table entries: 65536 (order: 8, 1048576 bytes)
+Apr 27 12:57:32 vagrant-centosv3 kernel: TCP: Hash tables configured (established 262144 bind 65536)
+Apr 27 12:57:32 vagrant-centosv3 kernel: TCP reno registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: NET: Registered protocol family 1
+Apr 27 12:57:32 vagrant-centosv3 kernel: pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Apr 27 12:57:32 vagrant-centosv3 kernel: pci 0000:00:01.0: PIIX3: Enabling Passive Release
+Apr 27 12:57:32 vagrant-centosv3 kernel: pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: PCI Interrupt Link [LNKD] enabled at IRQ 11
+Apr 27 12:57:32 vagrant-centosv3 kernel: pci 0000:00:01.2: PCI INT D -> Link[LNKD] -> GSI 11 (level, high) -> IRQ 11
+Apr 27 12:57:32 vagrant-centosv3 kernel: pci 0000:00:01.2: PCI INT D disabled
+Apr 27 12:57:32 vagrant-centosv3 kernel: Trying to unpack rootfs image as initramfs...
+Apr 27 12:57:32 vagrant-centosv3 kernel: Freeing initrd memory: 18051k freed
+Apr 27 12:57:32 vagrant-centosv3 kernel: sha256_ssse3: Using AVX optimized SHA-256 implementation
+Apr 27 12:57:32 vagrant-centosv3 kernel: futex hash table entries: 4096 (order: 6, 262144 bytes)
+Apr 27 12:57:32 vagrant-centosv3 kernel: audit: initializing netlink socket (disabled)
+Apr 27 12:57:32 vagrant-centosv3 kernel: type=2000 audit(1651078642.748:1): initialized
+Apr 27 12:57:32 vagrant-centosv3 kernel: HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Apr 27 12:57:32 vagrant-centosv3 kernel: VFS: Disk quotas dquot_6.5.2
+Apr 27 12:57:32 vagrant-centosv3 kernel: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Apr 27 12:57:32 vagrant-centosv3 kernel: msgmni has been set to 3743
+Apr 27 12:57:32 vagrant-centosv3 kernel: ksign: Installing public key data
+Apr 27 12:57:32 vagrant-centosv3 kernel: Loading keyring
+Apr 27 12:57:32 vagrant-centosv3 kernel: - Added public key AB4F5DBAD265ED6E
+Apr 27 12:57:32 vagrant-centosv3 kernel: - User ID: CentOS (Kernel Module GPG key)
+Apr 27 12:57:32 vagrant-centosv3 kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 250)
+Apr 27 12:57:32 vagrant-centosv3 kernel: io scheduler noop registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: io scheduler anticipatory registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: io scheduler deadline registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: io scheduler cfq registered (default)
+Apr 27 12:57:32 vagrant-centosv3 kernel: pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Apr 27 12:57:32 vagrant-centosv3 kernel: pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Apr 27 12:57:32 vagrant-centosv3 kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Apr 27 12:57:32 vagrant-centosv3 kernel: acpiphp: Slot [3] registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: acpiphp: Slot [4] registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: acpiphp: Slot [5] registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: acpiphp: Slot [6] registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: acpiphp: Slot [7] registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: acpiphp: Slot [8] registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: acpiphp: Slot [9] registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: acpiphp: Slot [10] registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: acpiphp: Slot [11] registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: acpiphp: Slot [12] registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: acpiphp: Slot [13] registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: acpiphp: Slot [14] registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: acpiphp: Slot [15] registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: acpiphp: Slot [16] registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: acpiphp: Slot [17] registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: acpiphp: Slot [18] registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: acpiphp: Slot [19] registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: acpiphp: Slot [20] registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: acpiphp: Slot [21] registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: acpiphp: Slot [22] registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: acpiphp: Slot [23] registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: acpiphp: Slot [24] registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: acpiphp: Slot [25] registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: acpiphp: Slot [26] registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: acpiphp: Slot [27] registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: acpiphp: Slot [28] registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: acpiphp: Slot [29] registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: acpiphp: Slot [30] registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: acpiphp: Slot [31] registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: Power Button [PWRF]
+Apr 27 12:57:32 vagrant-centosv3 kernel: [Firmware Bug]: No valid trip found
+Apr 27 12:57:32 vagrant-centosv3 kernel: GHES: HEST is not enabled!
+Apr 27 12:57:32 vagrant-centosv3 kernel: Non-volatile memory driver v1.3
+Apr 27 12:57:32 vagrant-centosv3 kernel: Linux agpgart interface v0.103
+Apr 27 12:57:32 vagrant-centosv3 kernel: crash memory driver: version 1.1
+Apr 27 12:57:32 vagrant-centosv3 kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Apr 27 12:57:32 vagrant-centosv3 kernel: brd: module loaded
+Apr 27 12:57:32 vagrant-centosv3 kernel: loop: module loaded
+Apr 27 12:57:32 vagrant-centosv3 kernel: input: Macintosh mouse button emulation as /devices/virtual/input/input1
+Apr 27 12:57:32 vagrant-centosv3 kernel: Fixed MDIO Bus: probed
+Apr 27 12:57:32 vagrant-centosv3 kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Apr 27 12:57:32 vagrant-centosv3 kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Apr 27 12:57:32 vagrant-centosv3 kernel: uhci_hcd: USB Universal Host Controller Interface driver
+Apr 27 12:57:32 vagrant-centosv3 kernel: uhci_hcd 0000:00:01.2: PCI INT D -> Link[LNKD] -> GSI 11 (level, high) -> IRQ 11
+Apr 27 12:57:32 vagrant-centosv3 kernel: uhci_hcd 0000:00:01.2: UHCI Host Controller
+Apr 27 12:57:32 vagrant-centosv3 kernel: uhci_hcd 0000:00:01.2: new USB bus registered, assigned bus number 1
+Apr 27 12:57:32 vagrant-centosv3 kernel: uhci_hcd 0000:00:01.2: irq 11, io base 0x0000c0c0
+Apr 27 12:57:32 vagrant-centosv3 kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+Apr 27 12:57:32 vagrant-centosv3 kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Apr 27 12:57:32 vagrant-centosv3 kernel: usb usb1: Product: UHCI Host Controller
+Apr 27 12:57:32 vagrant-centosv3 kernel: usb usb1: Manufacturer: Linux 2.6.32-754.14.2.el6.x86_64 uhci_hcd
+Apr 27 12:57:32 vagrant-centosv3 kernel: usb usb1: SerialNumber: 0000:00:01.2
+Apr 27 12:57:32 vagrant-centosv3 kernel: usb usb1: configuration #1 chosen from 1 choice
+Apr 27 12:57:32 vagrant-centosv3 kernel: hub 1-0:1.0: USB hub found
+Apr 27 12:57:32 vagrant-centosv3 kernel: hub 1-0:1.0: 2 ports detected
+Apr 27 12:57:32 vagrant-centosv3 kernel: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+Apr 27 12:57:32 vagrant-centosv3 kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+Apr 27 12:57:32 vagrant-centosv3 kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+Apr 27 12:57:32 vagrant-centosv3 kernel: mice: PS/2 mouse device common for all mice
+Apr 27 12:57:32 vagrant-centosv3 kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Apr 27 12:57:32 vagrant-centosv3 kernel: rtc_cmos 00:01: RTC can wake from S4
+Apr 27 12:57:32 vagrant-centosv3 kernel: rtc_cmos 00:01: rtc core: registered rtc_cmos as rtc0
+Apr 27 12:57:32 vagrant-centosv3 kernel: rtc0: alarms up to one day, y3k, 114 bytes nvram
+Apr 27 12:57:32 vagrant-centosv3 kernel: cpuidle: using governor ladder
+Apr 27 12:57:32 vagrant-centosv3 kernel: cpuidle: using governor menu
+Apr 27 12:57:32 vagrant-centosv3 kernel: EFI Variables Facility v0.08 2004-May-17
+Apr 27 12:57:32 vagrant-centosv3 kernel: usbcore: registered new interface driver hiddev
+Apr 27 12:57:32 vagrant-centosv3 kernel: usbcore: registered new interface driver usbhid
+Apr 27 12:57:32 vagrant-centosv3 kernel: usbhid: v2.6:USB HID core driver
+Apr 27 12:57:32 vagrant-centosv3 kernel: GRE over IPv4 demultiplexor driver
+Apr 27 12:57:32 vagrant-centosv3 kernel: TCP cubic registered
+Apr 27 12:57:32 vagrant-centosv3 kernel: Initializing XFRM netlink socket
+Apr 27 12:57:32 vagrant-centosv3 kernel: NET: Registered protocol family 17
+Apr 27 12:57:32 vagrant-centosv3 kernel: registered taskstats version 1
+Apr 27 12:57:32 vagrant-centosv3 kernel: rtc_cmos 00:01: setting system clock to 2022-04-27 16:57:21 UTC (1651078641)
+Apr 27 12:57:32 vagrant-centosv3 kernel: Initalizing network drop monitor service
+Apr 27 12:57:32 vagrant-centosv3 kernel: Freeing unused kernel memory: 1348k freed
+Apr 27 12:57:32 vagrant-centosv3 kernel: Write protecting the kernel read-only data: 10240k
+Apr 27 12:57:32 vagrant-centosv3 kernel: Freeing unused kernel memory: 584k freed
+Apr 27 12:57:32 vagrant-centosv3 kernel: Freeing unused kernel memory: 1524k freed
+Apr 27 12:57:32 vagrant-centosv3 kernel: dracut: dracut-004-411.el6
+Apr 27 12:57:32 vagrant-centosv3 kernel: dracut: rd_NO_LUKS: removing cryptoluks activation
+Apr 27 12:57:32 vagrant-centosv3 kernel: device-mapper: uevent: version 1.0.3
+Apr 27 12:57:32 vagrant-centosv3 kernel: device-mapper: ioctl: 4.33.1-ioctl (2015-8-18) initialised: dm-devel@redhat.com
+Apr 27 12:57:32 vagrant-centosv3 kernel: udev: starting version 147
+Apr 27 12:57:32 vagrant-centosv3 kernel: dracut: Starting plymouth daemon
+Apr 27 12:57:32 vagrant-centosv3 kernel: dracut: rd_NO_MD: removing MD RAID activation
+Apr 27 12:57:32 vagrant-centosv3 kernel: scsi0 : ata_piix
+Apr 27 12:57:32 vagrant-centosv3 kernel: scsi1 : ata_piix
+Apr 27 12:57:32 vagrant-centosv3 kernel: ata1: PATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xc140 irq 14
+Apr 27 12:57:32 vagrant-centosv3 kernel: ata2: PATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xc148 irq 15
+Apr 27 12:57:32 vagrant-centosv3 kernel: input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input3
+Apr 27 12:57:32 vagrant-centosv3 kernel: ata2.00: ATAPI: QEMU DVD-ROM, 2.5+, max UDMA/100
+Apr 27 12:57:32 vagrant-centosv3 kernel: ata2.01: ATAPI: QEMU DVD-ROM, 2.5+, max UDMA/100
+Apr 27 12:57:32 vagrant-centosv3 kernel: ata2.00: configured for MWDMA2
+Apr 27 12:57:32 vagrant-centosv3 kernel: ata2.01: configured for MWDMA2
+Apr 27 12:57:32 vagrant-centosv3 kernel: scsi 1:0:0:0: CD-ROM            QEMU     QEMU DVD-ROM     2.5+ PQ: 0 ANSI: 5
+Apr 27 12:57:32 vagrant-centosv3 kernel: scsi 1:0:1:0: CD-ROM            QEMU     QEMU DVD-ROM     2.5+ PQ: 0 ANSI: 5
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: PCI Interrupt Link [LNKC] enabled at IRQ 10
+Apr 27 12:57:32 vagrant-centosv3 kernel: virtio-pci 0000:00:03.0: PCI INT A -> Link[LNKC] -> GSI 10 (level, high) -> IRQ 10
+Apr 27 12:57:32 vagrant-centosv3 kernel: virtio-pci 0000:00:04.0: PCI INT A -> Link[LNKD] -> GSI 11 (level, high) -> IRQ 11
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: PCI Interrupt Link [LNKA] enabled at IRQ 10
+Apr 27 12:57:32 vagrant-centosv3 kernel: virtio-pci 0000:00:05.0: PCI INT A -> Link[LNKA] -> GSI 10 (level, high) -> IRQ 10
+Apr 27 12:57:32 vagrant-centosv3 kernel: ACPI: PCI Interrupt Link [LNKB] enabled at IRQ 11
+Apr 27 12:57:32 vagrant-centosv3 kernel: virtio-pci 0000:00:06.0: PCI INT A -> Link[LNKB] -> GSI 11 (level, high) -> IRQ 11
+Apr 27 12:57:32 vagrant-centosv3 kernel: virtio-pci 0000:00:07.0: PCI INT A -> Link[LNKC] -> GSI 10 (level, high) -> IRQ 10
+Apr 27 12:57:32 vagrant-centosv3 kernel: sr0: scsi3-mmc drive: 4x/4x cd/rw xa/form2 tray
+Apr 27 12:57:32 vagrant-centosv3 kernel: Uniform CD-ROM driver Revision: 3.20
+Apr 27 12:57:32 vagrant-centosv3 kernel: sr1: scsi3-mmc drive: 4x/4x cd/rw xa/form2 tray
+Apr 27 12:57:32 vagrant-centosv3 kernel: scsi2 : Virtio SCSI HBA
+Apr 27 12:57:32 vagrant-centosv3 kernel: scsi 2:0:0:0: Direct-Access     QEMU     QEMU HARDDISK    2.5+ PQ: 0 ANSI: 5
+Apr 27 12:57:32 vagrant-centosv3 kernel: sd 2:0:0:0: [sda] 31457280 512-byte logical blocks: (16.1 GB/15.0 GiB)
+Apr 27 12:57:32 vagrant-centosv3 kernel: sd 2:0:0:0: [sda] Write Protect is off
+Apr 27 12:57:32 vagrant-centosv3 kernel: sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Apr 27 12:57:32 vagrant-centosv3 kernel: sda: sda1 sda2
+Apr 27 12:57:32 vagrant-centosv3 kernel: sd 2:0:0:0: [sda] Attached SCSI disk
+Apr 27 12:57:32 vagrant-centosv3 kernel: dracut: Scanning devices sda2  for LVM logical volumes vg_vagrantcentos6/lv_root vg_vagrantcentos6/lv_swap 
+Apr 27 12:57:32 vagrant-centosv3 kernel: dracut: inactive '/dev/vg_vagrantcentos6/lv_root' [13.01 GiB] inherit
+Apr 27 12:57:32 vagrant-centosv3 kernel: dracut: inactive '/dev/vg_vagrantcentos6/lv_swap' [1.50 GiB] inherit
+Apr 27 12:57:32 vagrant-centosv3 kernel: EXT4-fs (dm-0): mounted filesystem with ordered data mode. Opts: 
+Apr 27 12:57:32 vagrant-centosv3 kernel: dracut: Mounted root filesystem /dev/mapper/vg_vagrantcentos6-lv_root
+Apr 27 12:57:32 vagrant-centosv3 kernel: SELinux:  Disabled at runtime.
+Apr 27 12:57:32 vagrant-centosv3 kernel: type=1404 audit(1651078643.260:2): selinux=0 auid=4294967295 ses=4294967295
+Apr 27 12:57:32 vagrant-centosv3 kernel: dracut: 
+Apr 27 12:57:32 vagrant-centosv3 kernel: dracut: Switching root
+Apr 27 12:57:32 vagrant-centosv3 kernel: udev: starting version 147
+Apr 27 12:57:32 vagrant-centosv3 kernel: sr 1:0:0:0: Attached scsi generic sg0 type 5
+Apr 27 12:57:32 vagrant-centosv3 kernel: sr 1:0:1:0: Attached scsi generic sg1 type 5
+Apr 27 12:57:32 vagrant-centosv3 kernel: sd 2:0:0:0: Attached scsi generic sg2 type 0
+Apr 27 12:57:32 vagrant-centosv3 kernel: piix4_smbus 0000:00:01.3: SMBus Host Controller at 0x700, revision 0
+Apr 27 12:57:32 vagrant-centosv3 kernel: EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: 
+Apr 27 12:57:32 vagrant-centosv3 kernel: Adding 1572860k swap on /dev/mapper/vg_vagrantcentos6-lv_swap.  Priority:-1 extents:1 across:1572860k 
+Apr 27 12:57:32 vagrant-centosv3 kernel: NET: Registered protocol family 10
+Apr 27 12:57:32 vagrant-centosv3 kernel: lo: Disabled Privacy Extensions
+Apr 27 12:57:32 vagrant-centosv3 kernel: type=1305 audit(1651078652.663:3): audit_pid=1118 old=0 auid=4294967295 ses=4294967295 res=1
+Apr 27 12:57:33 vagrant-centosv3 udevd[452]: can not read '/etc/udev/rules.d/70-persistent-net.rules'
+Apr 27 12:57:36 vagrant-centosv3 rhnsd[1402]: Spacewalk Services Daemon starting up, check in interval 240 minutes.
+Apr 27 12:58:49 vagrant-centosv3 yum[2130]: Installed: fuse-libs-2.8.3-5.el6.x86_64
+Apr 27 12:58:49 vagrant-centosv3 yum[2130]: Installed: fuse-sshfs-2.4-1.el6.x86_64
+Apr 27 12:59:04 vagrant-centosv3 kernel: fuse init (API version 7.14)
+Apr 27 12:59:06 vagrant-centosv3 kernel: lo: Disabled Privacy Extensions
+Apr 27 12:59:09 vagrant-centosv3 dhclient[3047]: DHCPREQUEST on eth0 to 255.255.255.255 port 67 (xid=0x55551419)
+Apr 27 12:59:09 vagrant-centosv3 dhclient[3047]: DHCPACK from 10.110.0.1 (xid=0x55551419)
+Apr 27 12:59:11 vagrant-centosv3 NET[3099]: /sbin/dhclient-script : updated /etc/resolv.conf
+Apr 27 12:59:11 vagrant-centosv3 dhclient[3047]: bound to 10.110.134.216 -- renewal in 16259 seconds.
